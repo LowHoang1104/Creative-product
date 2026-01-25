@@ -1,0 +1,27 @@
+{
+  "name": "philosophy-pairs",
+  "version": "1.0.0",
+  "homepage": "https://LowHoang1104.github.io/Creative-product/",
+  "description": "Interactive website about philosophical category pairs",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "lucide-react": "^0.359.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.3.0",
+    "vite": "^4.3.0"
+  }
+}
