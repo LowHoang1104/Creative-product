@@ -14,7 +14,7 @@ export default function PairDetail1() {
 
       <h2 className="text-5xl font-bold text-black mb-4">Cái Chung – Cái Riêng (và Cái Đơn Nhất)</h2>
       
-      <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#EEE8AA' }}>
+      <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#C19A6B' }}>
         <p className="text-black font-semibold">
           Một trong những cặp phạm trù cơ bản nhất trong triết học duyệt lý
         </p>
@@ -89,21 +89,21 @@ export default function PairDetail1() {
         <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ví Dụ Thực Tế</h3>
         
         <div className="space-y-6">
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 1: Phân Loại Động Vật</h4>
             <p className="text-black opacity-80">
               Cái chung: "Động vật" | Cái riêng: "Động vật có vú" | Cái đơn nhất: "Con chó của tôi tên Minu"
             </p>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 2: Trong Xã Hội</h4>
             <p className="text-black opacity-80">
               Cái chung: "Con người" | Cái riêng: "Người Việt Nam" | Cái đơn nhất: "Bạn tôi Hoa, sống ở Sài Gòn"
             </p>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 3: Trong Công Nghệ</h4>
             <p className="text-black opacity-80">
               Cái chung: "Máy tính" | Cái riêng: "Máy tính xách tay" | Cái đơn nhất: "Laptop Dell XPS của tôi, số seri 12345"

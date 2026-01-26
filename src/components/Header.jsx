@@ -26,7 +26,7 @@ export default function Header({ currentPage, onNavigate }) {
   }
 
   return (
-    <header className="bg-yellow-100 shadow-md sticky top-0 z-50" style={{ backgroundColor: '#EEE8AA' }}>
+    <header className="bg-yellow-100 shadow-md sticky top-0 z-50" style={{ backgroundColor: '#C19A6B' }}>
       <nav className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <h1 
@@ -77,7 +77,7 @@ export default function Header({ currentPage, onNavigate }) {
                         onClick={() => handlePairClick(pair.id)}
                         className="block w-full text-left px-4 py-2 text-black hover:bg-yellow-100 transition first:rounded-t-md last:rounded-b-md"
                         style={{ 
-                          backgroundColor: currentPage === pair.id ? '#EEE8AA' : 'white',
+                          backgroundColor: currentPage === pair.id ? '#C19A6B' : 'white',
                           fontWeight: currentPage === pair.id ? 'bold' : 'normal'
                         }}
                       >

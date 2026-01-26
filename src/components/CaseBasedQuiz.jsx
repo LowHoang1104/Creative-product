@@ -157,15 +157,15 @@ export default function CaseBasedQuiz() {
       {/* Thông tin tiến độ */}
       <div className="mb-8 flex justify-between items-center">
         <div className="text-black font-semibold">
-          Câu hỏi: <span style={{ color: '#EEE8AA' }}>{totalQuestions}</span>
+          Câu hỏi: <span style={{ color: '#C19A6B' }}>{totalQuestions}</span>
         </div>
         <div className="text-black font-semibold">
-          Điểm: <span style={{ color: '#EEE8AA' }}>{score}/{totalQuestions}</span>
+          Điểm: <span style={{ color: '#C19A6B' }}>{score}/{totalQuestions}</span>
         </div>
       </div>
 
       {/* Cặp phạm trù */}
-      <div className="mb-6 p-4 rounded-lg" style={{ backgroundColor: '#EEE8AA' }}>
+      <div className="mb-6 p-4 rounded-lg" style={{ backgroundColor: '#C19A6B' }}>
         <p className="text-black font-bold text-sm">
           📚 Cặp phạm trù: <span className="text-lg">{scenario.pair}</span>
         </p>

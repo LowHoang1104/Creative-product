@@ -95,10 +95,10 @@ export default function MatchingGame() {
     <div>
       <div className="mb-8 flex justify-between items-center">
         <div className="text-lg font-bold text-black">
-          Tìm được: <span style={{ color: '#EEE8AA' }}>{matched.length}/{pairs.length}</span>
+          Tìm được: <span style={{ color: '#C19A6B' }}>{matched.length}/{pairs.length}</span>
         </div>
         <div className="text-lg font-bold text-black">
-          Thời gian: <span style={{ color: '#EEE8AA' }}>{formatTime(elapsed)}</span>
+          Thời gian: <span style={{ color: '#C19A6B' }}>{formatTime(elapsed)}</span>
         </div>
       </div>
 

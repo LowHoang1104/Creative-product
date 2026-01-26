@@ -14,7 +14,7 @@ export default function PairDetail6() {
 
       <h2 className="text-5xl font-bold text-black mb-4">Khả Năng – Hiện Thực</h2>
       
-      <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#EEE8AA' }}>
+      <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#C19A6B' }}>
         <p className="text-black font-semibold">
           Quá trình chuyển hóa từ những điều có thể xảy ra thành những điều đã xảy ra
         </p>
@@ -87,7 +87,7 @@ export default function PairDetail6() {
         <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ví Dụ Thực Tế</h3>
         
         <div className="space-y-6">
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 1: Hạt Giống Thành Cây</h4>
             <div className="text-black opacity-80">
               <p><strong>Khả Năng:</strong> Hạt giống có khả năng thành cây (nếu được trồng đúng cách)</p>
@@ -97,7 +97,7 @@ export default function PairDetail6() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 2: Học Tập Trở Thành Bác Sĩ</h4>
             <div className="text-black opacity-80">
               <p><strong>Khả Năng:</strong> Bạn có khả năng trở thành bác sĩ (khả năng tiềm ẩn)</p>
@@ -107,7 +107,7 @@ export default function PairDetail6() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 3: Tài Năng Âm Nhạc</h4>
             <div className="text-black opacity-80">
               <p><strong>Khả Năng:</strong> Ai đó có khả năng trở thành nhạc sĩ xuất sắc</p>
@@ -117,7 +117,7 @@ export default function PairDetail6() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 4: Ý Tưởng Thành Sản Phẩm</h4>
             <div className="text-black opacity-80">
               <p><strong>Khả Năng:</strong> Bạn có ý tưởng tốt cho một ứng dụng di động</p>
@@ -127,7 +127,7 @@ export default function PairDetail6() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 5: Khả Năng Thay Đổi Cuộc Sống</h4>
             <div className="text-black opacity-80">
               <p><strong>Khả Năng:</strong> Bạn có khả năng thoát ra khỏi giai đoạn khó khăn</p>

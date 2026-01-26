@@ -2,7 +2,7 @@ import { BookOpen, Zap, Gamepad2, ArrowRight } from 'lucide-react'
 
 export default function Home({ onNavigate }) {
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#EEE8AA' }}>
+    <div className="min-h-screen" style={{ backgroundColor: '#C19A6B' }}>
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto px-4 py-20 text-center">
         <h2 className="text-5xl md:text-6xl font-bold text-black mb-6">
@@ -62,7 +62,7 @@ export default function Home({ onNavigate }) {
           <button
             onClick={() => onNavigate('about')}
             className="bg-yellow-100 text-black px-8 py-3 rounded-lg font-bold hover:bg-yellow-200 transition inline-flex items-center gap-2"
-            style={{ backgroundColor: '#EEE8AA' }}
+            style={{ backgroundColor: '#C19A6B' }}
           >
             Bắt Đầu Học <ArrowRight size={20} />
           </button>

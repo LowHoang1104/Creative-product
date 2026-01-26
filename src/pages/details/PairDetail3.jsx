@@ -14,7 +14,7 @@ export default function PairDetail3() {
 
       <h2 className="text-5xl font-bold text-black mb-4">Tất Nhiên – Ngẫu Nhiên</h2>
       
-      <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#EEE8AA' }}>
+      <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#C19A6B' }}>
         <p className="text-black font-semibold">
           Hai khía cạnh của mọi hiện tượng - từ xảy ra tất yếu theo quy luật đến những biến cố bất ngờ
         </p>
@@ -79,7 +79,7 @@ export default function PairDetail3() {
         <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ví Dụ Thực Tế</h3>
         
         <div className="space-y-6">
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 1: Gặp Gỡ</h4>
             <div className="text-black opacity-80">
               <p>Bạn gặp một người bạn cũ trên phố vào một buổi chiều.</p>
@@ -88,7 +88,7 @@ export default function PairDetail3() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 2: Bệnh Tật</h4>
             <div className="text-black opacity-80">
               <p>Ai đó bị cảm cúm.</p>
@@ -97,7 +97,7 @@ export default function PairDetail3() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 3: Thời Tiết</h4>
             <div className="text-black opacity-80">
               <p>Ngày hôm nay có mưa hay nắng?</p>
@@ -106,7 +106,7 @@ export default function PairDetail3() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 4: Kinh Doanh</h4>
             <div className="text-black opacity-80">
               <p>Công ty có lợi nhuận hay lỗ?</p>

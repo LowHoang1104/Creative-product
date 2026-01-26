@@ -14,7 +14,7 @@ export default function PairDetail4() {
 
       <h2 className="text-5xl font-bold text-black mb-4">Nội Dung – Hình Thức</h2>
       
-      <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#EEE8AA' }}>
+      <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#C19A6B' }}>
         <p className="text-black font-semibold">
           Hai yếu tố cấu thành mọi sự vật - cái gì (nội dung) và cách thức (hình thức)
         </p>
@@ -80,7 +80,7 @@ export default function PairDetail4() {
         <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ví Dụ Thực Tế</h3>
         
         <div className="space-y-6">
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 1: Những Chữ Cái</h4>
             <div className="text-black opacity-80">
               <p><strong>Nội dung:</strong> Những chữ cái: H, O, T</p>
@@ -91,7 +91,7 @@ export default function PairDetail4() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 2: Nguyên Tử Nước (H₂O)</h4>
             <div className="text-black opacity-80">
               <p><strong>Nội dung:</strong> 2 nguyên tử H + 1 nguyên tử O</p>
@@ -100,7 +100,7 @@ export default function PairDetail4() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 3: Một Bức Ảnh</h4>
             <div className="text-black opacity-80">
               <p><strong>Nội dung:</strong> Những điểm ảnh (pixels) màu đỏ, xanh, vàng</p>
@@ -109,7 +109,7 @@ export default function PairDetail4() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 4: Một Cuốn Sách</h4>
             <div className="text-black opacity-80">
               <p><strong>Nội dung:</strong> Tri thức, kiến thức, những ý tưởng</p>
@@ -118,7 +118,7 @@ export default function PairDetail4() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 5: Một Cơn Bão</h4>
             <div className="text-black opacity-80">
               <p><strong>Nội dung:</strong> Khí áp thấp, gió mạnh, độ ẩm cao</p>

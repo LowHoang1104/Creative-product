@@ -4,7 +4,7 @@ export default function Accordion({ id, title, content, isExpanded, onToggle }) 
       <button
         onClick={onToggle}
         className="w-full px-6 py-4 text-left bg-white hover:bg-gray-50 transition flex items-center justify-between"
-        style={{ backgroundColor: isExpanded ? '#EEE8AA' : 'white' }}
+        style={{ backgroundColor: isExpanded ? '#C19A6B' : 'white' }}
       >
         <span className="font-bold text-black text-lg">{title}</span>
         <span className={`text-2xl text-black transition transform ${isExpanded ? 'rotate-180' : ''}`}>

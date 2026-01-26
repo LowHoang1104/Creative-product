@@ -14,7 +14,7 @@ export default function PairDetail2() {
 
       <h2 className="text-5xl font-bold text-black mb-4">Nguyên Nhân – Kết Quả</h2>
       
-      <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#EEE8AA' }}>
+      <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#C19A6B' }}>
         <p className="text-black font-semibold">
           Cặp phạm trù cơ bản nhất để hiểu mối liên hệ nhân quả trong tự nhiên và xã hội
         </p>
@@ -73,7 +73,7 @@ export default function PairDetail2() {
         <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ví Dụ Thực Tế</h3>
         
         <div className="space-y-6">
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 1: Trong Tự Nhiên</h4>
             <div className="text-black opacity-80">
               <p><strong>Nguyên nhân:</strong> Hạt giống được trồng vào đất tốt, được tưới nước, có ánh nắng</p>
@@ -82,7 +82,7 @@ export default function PairDetail2() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 2: Trong Học Tập</h4>
             <div className="text-black opacity-80">
               <p><strong>Nguyên nhân:</strong> Chăm học, chú ý lắng nghe, làm bài tập đầy đủ</p>
@@ -90,7 +90,7 @@ export default function PairDetail2() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 3: Trong Xã Hội</h4>
             <div className="text-black opacity-80">
               <p><strong>Nguyên nhân:</strong> Mất việc làm, không có thu nhập</p>
@@ -98,7 +98,7 @@ export default function PairDetail2() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 4: Trong Sức Khỏe</h4>
             <div className="text-black opacity-80">
               <p><strong>Nguyên nhân:</strong> Nhiễm virus, hệ miễn dịch suy yếu</p>

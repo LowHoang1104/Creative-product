@@ -14,7 +14,7 @@ export default function PairDetail5() {
 
       <h2 className="text-5xl font-bold text-black mb-4">Bản Chất – Hiện Tượng</h2>
       
-      <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#EEE8AA' }}>
+      <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#C19A6B' }}>
         <p className="text-black font-semibold">
           Sự phân biệt giữa những gì ta nhìn thấy và những gì thực sự tồn tại
         </p>
@@ -87,7 +87,7 @@ export default function PairDetail5() {
         <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ví Dụ Thực Tế</h3>
         
         <div className="space-y-6">
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 1: Cuốn Sách</h4>
             <div className="text-black opacity-80">
               <p><strong>Hiện tượng (có thể nhìn thấy):</strong> Bìa sách dày 300 trang, màu xanh, có hình ảnh minh họa, nặng 500g</p>
@@ -96,7 +96,7 @@ export default function PairDetail5() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 2: Con Vàng Và Con Bạc</h4>
             <div className="text-black opacity-80">
               <p><strong>Hiện tượng (có thể nhìn thấy):</strong> Con vàng trông sang trọng, con bạc trông bình thường</p>
@@ -105,7 +105,7 @@ export default function PairDetail5() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 3: Nước</h4>
             <div className="text-black opacity-80">
               <p><strong>Hiện tượng (có thể nhìn thấy):</strong></p>
@@ -116,7 +116,7 @@ export default function PairDetail5() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 4: Con Người</h4>
             <div className="text-black opacity-80">
               <p><strong>Hiện tượng (có thể nhìn thấy):</strong> Người lớp thượng thường mặc đẹp, sống trong nhà sang trọng, nói chuyện lịch sự</p>
@@ -125,7 +125,7 @@ export default function PairDetail5() {
             </div>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2">Ví Dụ 5: Bệnh Tật</h4>
             <div className="text-black opacity-80">
               <p><strong>Hiện tượng (có thể nhìn thấy):</strong> Sốt cao, ho, khó thở</p>

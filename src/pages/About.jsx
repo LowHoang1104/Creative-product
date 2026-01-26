@@ -19,28 +19,28 @@ export default function About() {
         <h3 className="text-2xl font-bold text-black mb-4">Vai Trò của Cặp Phạm Trù</h3>
         
         <div className="space-y-6">
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2 flex items-center gap-2"><Brain size={20} /> 1. Trong Nhận Thức</h4>
             <p className="text-black opacity-80">
               Cặp phạm trù giúp chúng ta hiểu rõ hơn về bản chất của sự vật. Bằng cách nhìn từ hai khía cạnh đối lập, ta có cái nhìn toàn diện hơn về hiện tượng cần nghiên cứu.
             </p>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2 flex items-center gap-2"><Beaker size={20} /> 2. Trong Khoa Học</h4>
             <p className="text-black opacity-80">
               Nhiều khám phá khoa học dựa trên các cặp phạm trù: Âm-Dương trong vật lý (Electron-Positron), Tiến hóa-Tuyển chọn tự nhiên trong sinh học.
             </p>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2 flex items-center gap-2"><Users size={20} /> 3. Trong Đời Sống</h4>
             <p className="text-black opacity-80">
               Hiểu biết về cặp phạm trù giúp chúng ta cân bằng cuộc sống, đưa ra quyết định sáng suốt, và chấp nhận những mâu thuẫn tự nhiên của thế giới.
             </p>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#EEE8AA' }}>
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
             <h4 className="font-bold text-black mb-2 flex items-center gap-2"><Lightbulb size={20} /> 4. Trong Phát Triển Tư Duy</h4>
             <p className="text-black opacity-80">
               Học về cặp phạm trù rèn luyện khả năng tư duy phản biện, giúp ta vượt ra ngoài nhị phân đơn thuần và nhìn nhận các vấn đề một cách sâu sắc hơn.
@@ -49,7 +49,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="mt-8 p-6 rounded-lg flex items-start gap-3" style={{ backgroundColor: '#EEE8AA' }}>
+      <div className="mt-8 p-6 rounded-lg flex items-start gap-3" style={{ backgroundColor: '#C19A6B' }}>
         <Lightbulb size={24} className="flex-shrink-0 mt-0.5" />
         <p className="text-black font-semibold">
           Lưu ý: Cặp phạm trù không phải là những tuyệt đối mà là những khái niệm tương đối, luôn phát triển và thay đổi theo bối cảnh.
