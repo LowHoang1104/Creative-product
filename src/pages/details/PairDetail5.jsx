@@ -1,4 +1,5 @@
-import { ArrowLeft, BookOpen, Link2, Star, AlertTriangle, ListChecks, XCircle } from 'lucide-react';
+import { ArrowLeft, BookOpen, Link2, Star, AlertTriangle, ListChecks, XCircle } from 'lucide-react'
+import { contentImages } from '../../constants/images'
 
 export default function PairDetail5() {
   return (
@@ -18,6 +19,10 @@ export default function PairDetail5() {
         <p className="text-black font-semibold">
           Sự phân biệt giữa những gì ta nhìn thấy và những gì thực sự tồn tại
         </p>
+      </div>
+
+      <div className="rounded-xl overflow-hidden shadow-lg mb-8">
+        <img src={contentImages.pair5} alt="Bản chất - Hiện tượng" className="w-full h-56 object-cover img-warm" />
       </div>
 
       {/* Định Nghĩa */}

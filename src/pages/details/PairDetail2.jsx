@@ -1,4 +1,5 @@
-import { ArrowLeft, BookOpen, Link2, Star, AlertTriangle, ListChecks, XCircle } from 'lucide-react';
+import { ArrowLeft, BookOpen, Link2, Star, AlertTriangle, ListChecks, XCircle } from 'lucide-react'
+import { contentImages } from '../../constants/images'
 
 export default function PairDetail2() {
   return (
@@ -18,6 +19,10 @@ export default function PairDetail2() {
         <p className="text-black font-semibold">
           Cặp phạm trù cơ bản nhất để hiểu mối liên hệ nhân quả trong tự nhiên và xã hội
         </p>
+      </div>
+
+      <div className="rounded-xl overflow-hidden shadow-lg mb-8">
+        <img src={contentImages.pair2} alt="Nguyên nhân - Kết quả" className="w-full h-56 object-cover img-warm" />
       </div>
 
       {/* Định Nghĩa */}

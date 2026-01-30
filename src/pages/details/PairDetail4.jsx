@@ -1,4 +1,5 @@
-import { ArrowLeft, BookOpen, Link2, Star, AlertTriangle, ListChecks, XCircle } from 'lucide-react';
+import { ArrowLeft, BookOpen, Link2, Star, AlertTriangle, ListChecks, XCircle } from 'lucide-react'
+import { contentImages } from '../../constants/images'
 
 export default function PairDetail4() {
   return (
@@ -18,6 +19,10 @@ export default function PairDetail4() {
         <p className="text-black font-semibold">
           Hai yếu tố cấu thành mọi sự vật - cái gì (nội dung) và cách thức (hình thức)
         </p>
+      </div>
+
+      <div className="rounded-xl overflow-hidden shadow-lg mb-8">
+        <img src={contentImages.pair4} alt="Nội dung - Hình thức" className="w-full h-56 object-cover img-warm" />
       </div>
 
       {/* Định Nghĩa */}

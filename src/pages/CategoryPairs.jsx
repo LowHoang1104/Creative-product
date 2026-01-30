@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Accordion from '../components/Accordion'
+import { contentImages } from '../constants/images'
 
 export default function CategoryPairs() {
   const [expandedId, setExpandedId] = useState(0)
@@ -185,7 +186,10 @@ export default function CategoryPairs() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
       <h2 className="text-4xl font-bold text-black mb-2">Các Cặp Phạm Trù</h2>
-      <p className="text-black opacity-70 mb-8">Nhấn vào mỗi cặp để xem chi tiết</p>
+      <p className="text-black opacity-70 mb-6">Nhấn vào mỗi cặp để xem chi tiết</p>
+      <div className="rounded-xl overflow-hidden shadow-lg mb-8">
+        <img src={contentImages.pairsBanner} alt="Các cặp phạm trù" className="w-full h-56 object-cover img-warm" />
+      </div>
 
       <div className="space-y-4">
         {pairs.map(pair => (

@@ -1,4 +1,5 @@
-import { ArrowLeft, BookOpen, Link2, Star, AlertTriangle, ListChecks, XCircle } from 'lucide-react';
+import { ArrowLeft, BookOpen, Link2, Star, AlertTriangle, ListChecks, XCircle } from 'lucide-react'
+import { contentImages } from '../../constants/images'
 
 export default function PairDetail3() {
   return (
@@ -18,6 +19,10 @@ export default function PairDetail3() {
         <p className="text-black font-semibold">
           Hai khía cạnh của mọi hiện tượng - từ xảy ra tất yếu theo quy luật đến những biến cố bất ngờ
         </p>
+      </div>
+
+      <div className="rounded-xl overflow-hidden shadow-lg mb-8">
+        <img src={contentImages.pair3} alt="Tất nhiên - Ngẫu nhiên" className="w-full h-56 object-cover img-warm" />
       </div>
 
       {/* Định Nghĩa */}

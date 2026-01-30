@@ -1,10 +1,14 @@
 import { Gamepad2, Brain, BookOpen, AlertCircle } from 'lucide-react'
 import CaseBasedQuiz from '../components/CaseBasedQuiz2'
+import { contentImages } from '../constants/images'
 
 export default function Game() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
-      <h2 className="text-4xl font-bold text-black mb-8 flex items-center gap-3"><Gamepad2 size={36} /> Game Tương Tác</h2>
+      <h2 className="text-4xl font-bold text-black mb-6 flex items-center gap-3"><Gamepad2 size={36} /> Game Tương Tác</h2>
+      <div className="rounded-xl overflow-hidden shadow-lg mb-8">
+        <img src={contentImages.gameHeader} alt="Học và quiz" className="w-full h-52 object-cover img-warm" />
+      </div>
       
       <div className="mb-8 bg-blue-50 p-6 rounded-lg">
         <h3 className="text-2xl font-bold text-black mb-4">Trắc Nghiệm Tình Huống (Case-Based Quiz)</h3>

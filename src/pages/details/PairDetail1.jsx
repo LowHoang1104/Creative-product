@@ -1,4 +1,5 @@
 import { ArrowLeft, BookOpen, Link2, Star, AlertTriangle, ListChecks, XCircle } from 'lucide-react'
+import { contentImages } from '../../constants/images'
 
 export default function PairDetail1() {
   return (
@@ -18,6 +19,10 @@ export default function PairDetail1() {
         <p className="text-black font-semibold">
           Một trong những cặp phạm trù cơ bản nhất trong triết học duyệt lý
         </p>
+      </div>
+
+      <div className="rounded-xl overflow-hidden shadow-lg mb-8">
+        <img src={contentImages.pair1} alt="Cái chung - Cái riêng" className="w-full h-56 object-cover img-warm" />
       </div>
 
       {/* Định Nghĩa */}

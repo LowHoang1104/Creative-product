@@ -1,4 +1,5 @@
-import { ArrowLeft, BookOpen, Link2, Star, AlertTriangle, ListChecks, XCircle } from 'lucide-react';
+import { ArrowLeft, BookOpen, Link2, Star, AlertTriangle, ListChecks, XCircle } from 'lucide-react'
+import { contentImages } from '../../constants/images'
 
 export default function PairDetail6() {
   return (
@@ -18,6 +19,10 @@ export default function PairDetail6() {
         <p className="text-black font-semibold">
           Quá trình chuyển hóa từ những điều có thể xảy ra thành những điều đã xảy ra
         </p>
+      </div>
+
+      <div className="rounded-xl overflow-hidden shadow-lg mb-8">
+        <img src={contentImages.pair6} alt="Khả năng - Hiện thực" className="w-full h-56 object-cover img-warm" />
       </div>
 
       {/* Định Nghĩa */}

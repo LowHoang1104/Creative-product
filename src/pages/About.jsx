@@ -1,9 +1,14 @@
 import { Lightbulb, Brain, Beaker, Users } from 'lucide-react'
+import { contentImages } from '../constants/images'
 
 export default function About() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
       <h2 className="text-4xl font-bold text-black mb-8">Giới Thiệu</h2>
+
+      <div className="rounded-xl overflow-hidden shadow-lg mb-8">
+        <img src={contentImages.aboutMain} alt="Sách và tri thức" className="w-full h-56 object-cover img-warm" />
+      </div>
 
       <div className="bg-white p-8 rounded-lg shadow-lg mb-8">
         <h3 className="text-2xl font-bold text-black mb-4">Cặp Phạm Trù là gì?</h3>
@@ -15,7 +20,10 @@ export default function About() {
         </p>
       </div>
 
-      <div className="bg-white p-8 rounded-lg shadow-lg">
+      <div className="bg-white p-8 rounded-lg shadow-lg mb-8">
+        <div className="rounded-xl overflow-hidden mb-6">
+          <img src={contentImages.aboutLight} alt="Ánh sáng và nhận thức" className="w-full h-48 object-cover img-warm" />
+        </div>
         <h3 className="text-2xl font-bold text-black mb-4">Vai Trò của Cặp Phạm Trù</h3>
         
         <div className="space-y-6">
