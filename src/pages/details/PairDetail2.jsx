@@ -25,204 +25,148 @@ export default function PairDetail2() {
         <img src={contentImages.pair2} alt="Nguyên nhân - Kết quả" className="w-full h-56 object-cover img-warm" />
       </div>
 
-      {/* Định Nghĩa */}
+      {/* 1. Khái niệm */}
       <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><BookOpen size={32} /> Định Nghĩa</h3>
+        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><BookOpen size={32} /> 1. Khái Niệm</h3>
         
         <div className="space-y-4">
           <div className="border-l-4 border-black pl-6">
             <h4 className="text-xl font-bold text-black mb-2">Nguyên Nhân</h4>
             <p className="text-black opacity-80">
-              Sự vật, hiện tượng hoặc hoạt động mà từ đó phát sinh sự vật, hiện tượng khác. Nó là lực, tác động, hay hoàn cảnh tạo ra sự thay đổi.
-            </p>
-            <p className="text-black opacity-70 mt-2 italic">
-              Ví dụ: Lửa là nguyên nhân làm nước sôi | Kiến thức là nguyên nhân tạo ra thành công
+              Nguyên nhân là phạm trù chỉ sự tương tác lẫn nhau giữa các yếu tố trong một sự vật, hiện tượng hoặc giữa các sự vật, hiện tượng với nhau gây ra những biến đổi nhất định.
             </p>
           </div>
 
           <div className="border-l-4 border-black pl-6">
             <h4 className="text-xl font-bold text-black mb-2">Kết Quả</h4>
             <p className="text-black opacity-80">
-              Sự vật, hiện tượng được sinh ra từ nguyên nhân nào đó. Nó là hệ quả, tác động, hoặc sản phẩm của nguyên nhân.
+              Kết quả là phạm trù chỉ những biến đổi xuất hiện do sự tương tác giữa các yếu tố mang tính nguyên nhân gây nên.
             </p>
-            <p className="text-black opacity-70 mt-2 italic">
-              Ví dụ: Nước sôi là kết quả của tác động nhiệt | Thành công là kết quả của kiến thức
+          </div>
+
+          <div className="bg-gray-50 p-4 rounded-lg mt-4">
+            <p className="text-black opacity-80 mb-3">
+              <strong>Ví dụ:</strong> Sinh viên học tập chăm chỉ thì đạt điểm cao. Học tập chăm chỉ là một hiện tượng, bên trong nó tồn tại những yếu tố như: động cơ, thái độ học tập, môi trường học tập,... những yếu tố này tác động lẫn nhau, chính sự tương tác đó tạo ra kết quả là sinh viên đạt điểm cao.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-black pl-6 mt-4">
+            <h4 className="text-xl font-bold text-black mb-2">Nguyên Cớ</h4>
+            <p className="text-black opacity-80">
+              Là sự kiện xảy ra ngay trước kết quả nhưng nó không phải là nguyên nhân gốc rễ, mang tính ngẫu nhiên, có thể dùng nguyên cớ để che đậy nguyên nhân.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-black pl-6">
+            <h4 className="text-xl font-bold text-black mb-2">Điều Kiện</h4>
+            <p className="text-black opacity-80">
+              Là những yếu tố, hoàn cảnh giúp cho nguyên nhân có thể hoạt động và tạo ra kết quả. Điều kiện không trực tiếp sinh ra kết quả, nhưng nếu không có điều kiện phù hợp thì nguyên nhân cũng khó phát huy tác dụng.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Quy Luật Nhân Quả */}
+      {/* 2. Mối quan hệ giữa nguyên nhân và kết quả */}
       <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6">⚡ Quy Luật Nhân Quả</h3>
+        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Link2 size={32} /> 2. Mối Quan Hệ Giữa Nguyên Nhân và Kết Quả</h3>
+        
+        {/* a. Nguyên nhân sản sinh ra kết quả */}
+        <div className="mb-8">
+          <h4 className="text-2xl font-bold text-black mb-4">a. Nguyên Nhân Sản Sinh Ra Kết Quả</h4>
+          
+          <div className="space-y-4 text-black opacity-80">
+            <p>
+              Nguyên nhân là cái sinh ra kết quả, nên nguyên nhân luôn có trước kết quả. Còn kết quả chỉ xuất hiện sau khi nguyên nhân xuất hiện và bắt đầu tác động. Tuy nhiên, không phải sự nối tiếp nào trong thời gian của các hiện tượng cũng đều biểu hiện mối liên hệ nhân quả.
+            </p>
+
+            <p>
+              Cùng một nguyên nhân có thể gây ra nhiều kết quả khác nhau tùy thuộc vào hoàn cảnh cụ thể. Ngược lại, cùng một kết quả có thể được gây nên bởi những nguyên nhân khác nhau. Các nguyên nhân khác nhau tác động lên sự vật theo các hướng khác nhau thì sẽ làm suy yếu, thậm chí triệt tiêu các tác dụng của nhau.
+            </p>
+
+            <div className="bg-blue-50 p-4 rounded-lg mt-4">
+              <p className="font-semibold text-black mb-3">Căn cứ vào tính chất, vai trò của nguyên nhân đối với sự hình thành kết quả, có thể phân loại nguyên nhân thành:</p>
+              <ul className="space-y-2 ml-4 text-black opacity-80">
+                <li>• <strong>Nguyên nhân chủ yếu</strong> và <strong>nguyên nhân thứ yếu</strong></li>
+                <li>• <strong>Nguyên nhân bên trong</strong> và <strong>nguyên nhân bên ngoài</strong></li>
+                <li>• <strong>Nguyên nhân khách quan</strong> và <strong>nguyên nhân chủ quan</strong></li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-50 p-4 rounded-lg mt-4">
+              <p className="font-semibold text-black mb-2">Ví dụ:</p>
+              <p className="text-black opacity-80">
+                Kết quả học tập cao của một học sinh trước hết do nguyên nhân chủ yếu là học tập chăm chỉ. Tuy nhiên, cùng một nguyên nhân này có thể dẫn đến các kết quả khác nhau tùy hoàn cảnh, như học đúng phương pháp thì điểm cao, học sai cách thì kết quả chỉ trung bình. Ngược lại, cùng một kết quả điểm cao cũng có thể do nhiều nguyên nhân khác nhau như năng lực cá nhân, sự hỗ trợ của gia đình hay thầy cô. Trong đó, ý thức và năng lực của học sinh là nguyên nhân bên trong, còn môi trường học tập là nguyên nhân bên ngoài.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* b. Sự tác động trở lại của kết quả đối với nguyên nhân */}
+        <div className="mb-8">
+          <h4 className="text-2xl font-bold text-black mb-4">b. Sự Tác Động Trở Lại Của Kết Quả Đối Với Nguyên Nhân</h4>
+          
+          <div className="space-y-4 text-black opacity-80">
+            <p>
+              Nguyên nhân sản sinh ra kết quả. Nhưng sau khi xuất hiện, kết quả không giữ vai trò thụ động đối với nguyên nhân, mà sẽ có ảnh hưởng tích cực trở lại đối với nguyên nhân.
+            </p>
+
+            <div className="bg-gray-50 p-4 rounded-lg mt-4">
+              <p className="font-semibold text-black mb-2">Ví dụ: Kết quả học tập tác động trở lại nguyên nhân</p>
+              <p className="text-black opacity-80">
+                Học sinh học tập chăm chỉ là nguyên nhân dẫn đến kết quả đạt điểm cao trong kỳ thi. Tuy nhiên, sau khi có kết quả tốt, điểm cao lại tác động trở lại nguyên nhân: nó tạo động lực, sự tự tin và hứng thú học tập cho học sinh, khiến các em tiếp tục học chăm chỉ hơn trong những lần sau. Ngược lại, nếu kết quả thấp, học sinh có thể nản lòng, từ đó làm giảm sự cố gắng học tập.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* c. Sự thay đổi vị trí giữa nguyên nhân và kết quả */}
+        <div>
+          <h4 className="text-2xl font-bold text-black mb-4">c. Sự Thay Đổi Vị Trí Giữa Nguyên Nhân và Kết Quả</h4>
+          
+          <div className="space-y-4 text-black opacity-80">
+            <p>
+              Điều này xảy ra khi ta xem xét sự vật, hiện tượng trong các mối quan hệ khác nhau. Một hiện tượng nào đó trong mối quan hệ này là nguyên nhân thì trong mối quan hệ khác là kết quả và ngược lại.
+            </p>
+
+            <p>
+              Một hiện tượng nào đó là kết quả do một nguyên nhân nào đó sinh ra, đến lượt mình sẽ trở thành nguyên nhân sinh ra hiện tượng thứ ba... Và quá trình này tiếp tục mãi không bao giờ kết thúc, tạo nên một chuỗi nhân quả vô cùng tận. Trong chuỗi đó không có khâu nào là bắt đầu hay cuối cùng.
+            </p>
+
+            <div className="bg-gray-50 p-4 rounded-lg mt-4">
+              <p className="font-semibold text-black mb-2">Ví dụ: Quá trình học tập của học sinh</p>
+              <p className="text-black opacity-80">
+                Việc học tập chăm chỉ là nguyên nhân dẫn đến kết quả là học sinh đạt điểm cao. Tuy nhiên, trong mối quan hệ tiếp theo, điểm cao lại trở thành nguyên nhân tạo ra hiện tượng mới là học sinh có thêm động lực, tự tin hơn trong học tập. Động lực này tiếp tục trở thành nguyên nhân khiến học sinh học tập nghiêm túc hơn nữa, từ đó lại sinh ra kết quả học tập ngày càng tốt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Ý nghĩa phương pháp luận */}
+      <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
+        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> 3. Ý Nghĩa Phương Pháp Luận</h3>
         
         <div className="space-y-4 text-black opacity-80">
-          <p>
-            Mọi hiện tượng tự nhiên và xã hội đều có nguyên nhân của nó. Không có hiện tượng nào xảy ra mà không có nguyên nhân, và mỗi nguyên nhân sẽ dẫn đến kết quả tương ứng.
-          </p>
-
-          <div className="bg-gray-50 p-4 rounded">
-            <p className="font-semibold mb-3">Các đặc điểm của mối quan hệ nhân quả:</p>
-            <ul className="space-y-2 ml-4">
-              <li>🔄 <strong>Tính chất của nhân quả:</strong> Mỗi nguyên nhân chỉ dẫn đến một loại kết quả nhất định</li>
-              <li>⏱️ <strong>Sự tuần tự:</strong> Nguyên nhân luôn xảy ra trước, kết quả xảy ra sau</li>
-              <li>🔗 <strong>Tính liên tục:</strong> Kết quả của hiện tượng này lại trở thành nguyên nhân của hiện tượng khác</li>
-              <li>🌊 <strong>Tính đa nguyên nhân:</strong> Một kết quả có thể có nhiều nguyên nhân</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* Ví Dụ Thực Tế */}
-      <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ví Dụ Thực Tế</h3>
-        
-        <div className="space-y-6">
           <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 1: Trong Tự Nhiên</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Nguyên nhân:</strong> Hạt giống được trồng vào đất tốt, được tưới nước, có ánh nắng</p>
-              <p className="mt-2">→ <strong>Kết quả:</strong> Cây lớn lên, phát triển, cho hoa và quả</p>
-              <p className="mt-2 text-sm italic">→ <strong>Chuỗi nhân quả tiếp tục:</strong> Quả rơi → Hạt mới → Cây mới</p>
-            </div>
+            <p className="mb-3">
+              Mối liên hệ nhân quả có tính chất khách quan và tính phổ biến, nghĩa là không có sự vật, hiện tượng nào trong thế giới vật chất lại không có nguyên nhân. Nhưng không phải con người có thể nhận thức ngay được nguyên nhân. Nhiệm vụ của nhận thức khoa học là phải tìm ra nguyên nhân của những hiện tượng trong tự nhiên, xã hội và tư duy để giải thích được những hiện tượng đó. Muốn tìm nguyên nhân phải tìm trong thế giới hiện thực, trong bản thân các sự vật, hiện tượng tồn tại trong thế giới vật chất chứ không được tưởng tượng ra từ đầu óc con người, tách rời với thế giới hiện thực.
+            </p>
           </div>
 
           <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 2: Trong Học Tập</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Nguyên nhân:</strong> Chăm học, chú ý lắng nghe, làm bài tập đầy đủ</p>
-              <p className="mt-2">→ <strong>Kết quả:</strong> Hiểu bài, ghi nhớ kiến thức, thi đạt điểm cao</p>
-            </div>
+            <p className="mb-3">
+              Vì nguyên nhân luôn có trước kết quả nên muốn tìm nguyên nhân của một hiện tượng nào đấy cần tìm trong những sự kiện những mối liên hệ xảy ra trước khi hiện tượng đó xuất hiện. Một kết quả có thể do nhiều nguyên nhân sinh ra. Những nguyên nhân này có vai trò khác nhau đối với việc hình thành kết quả. Vì vậy trong hoạt động thực tiễn của chúng ta cần phân loại nguyên nhân, tìm ra nguyên nhân cơ bản, nguyên nhân khách quan,... Đồng thời phải nắm bắt được chiều hướng tác động của các nguyên nhân, từ đó có biện pháp thích hợp tạo điều kiện cho nguyên nhân có tác động tích cực đến hoạt động và hạn chế sự hoạt động của nguyên nhân có tác động tiêu cực.
+            </p>
           </div>
 
           <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 3: Trong Xã Hội</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Nguyên nhân:</strong> Mất việc làm, không có thu nhập</p>
-              <p className="mt-2">→ <strong>Kết quả:</strong> Khó khăn trong cuộc sống, phải tìm việc mới</p>
-            </div>
-          </div>
-
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 4: Trong Sức Khỏe</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Nguyên nhân:</strong> Nhiễm virus, hệ miễn dịch suy yếu</p>
-              <p className="mt-2">→ <strong>Kết quả:</strong> Bị cảm cúm, sốt, ho</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Mối Liên Hệ */}
-      <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Link2 size={32} /> Mối Liên Hệ Giữa Nguyên Nhân và Kết Quả</h3>
-        
-        <div className="space-y-4 text-black opacity-80">
-          <div className="bg-blue-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">Sự phụ thuộc hai chiều:</h4>
             <p>
-              Nguyên nhân phụ thuộc vào kết quả (để được coi là nguyên nhân, nó phải gây ra kết quả), và kết quả phụ thuộc vào nguyên nhân (không có kết quả mà không có nguyên nhân).
-            </p>
-          </div>
-
-          <div className="bg-blue-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">Mối liên hệ không cố định:</h4>
-            <p>
-              Cùng một nguyên nhân có thể dẫn đến những kết quả khác nhau trong những hoàn cảnh khác nhau. Ví dụ: Hạt giống trong đất tốt sẽ thành cây to, nhưng nếu không tưới nước sẽ chết.
-            </p>
-          </div>
-
-          <div className="bg-blue-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">Tính tiến triển:</h4>
-            <p>
-              Một kết quả có thể trở thành nguyên nhân cho hiện tượng khác, tạo thành chuỗi nhân quả dài. Quá trình này không bao giờ dừng lại.
+              Kết quả tác động trở lại nguyên nhân. Vì vậy, trong hoạt động thực tiễn chúng ta cần phải khai thác, tận dụng các kết quả đã đạt được để tạo điều kiện thúc đẩy nguyên nhân phát huy tác dụng, nhằm đạt mục đích.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Ứng Dụng */}
-      <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ứng Dụng Thực Tế</h3>
-        
-        <div className="space-y-4 text-black opacity-80">
-          <div>
-            <h4 className="font-bold text-black mb-2">1. Trong Khoa Học</h4>
-            <p>
-              Các nhà khoa học tìm kiếm nguyên nhân của những hiện tượng để dự đoán kết quả. Ví dụ: Hiểu nguyên nhân của bệnh tật để tìm ra cách chữa trị.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">2. Trong Pháp Luật</h4>
-            <p>
-              Tòa án phải xác định nguyên nhân (ai gây ra) để xác định trách nhiệm và kết quả (hình phạt). Ví dụ: Bị cáo gây tai nạn → Kết quả là phạt tiền hoặc tù.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">3. Trong Quản Lý</h4>
-            <p>
-              Để cải thiện kết quả của công ty, cần tìm hiểu nguyên nhân gây ra những vấn đề hiện tại. Ví dụ: Doanh thu giảm → Nguyên nhân là quảng cáo kém hay sản phẩm chất lượng thấp?
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">4. Trong Giáo Dục Cá Nhân</h4>
-            <p>
-              Hiểu rằng những quyết định hôm nay sẽ có kết quả trong tương lai. Chăm học hôm nay → Thành công ngày mai. Lười biếng hôm nay → Thất bại sau này.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Lỗi Thường Gặp */}
-      <section className="bg-red-50 p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><AlertTriangle size={32} /> Những Lỗi Thường Gặp</h3>
-        
-        <div className="space-y-4 text-black opacity-80">
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Nhầm lẫn giữa nguyên nhân và điều kiện:</strong> Lửa không phải nguyên nhân duy nhất của cháy - cần cả oxy. Cả ba thứ cùng tác động mới gây cháy.
-            </div>
-          </div>
-
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Hoán đổi nguyên nhân và kết quả:</strong> Nước sôi là kết quả chứ không phải nguyên nhân của nhiệt độ cao (nhiệt độ cao là nguyên nhân).
-            </div>
-          </div>
-
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Cho rằng hai sự kiện xảy ra cùng lúc là có quan hệ nhân quả:</strong> Ví dụ: Con gà gáy trước khi mặt trời mọc không phải nguyên nhân của bình minh.
-            </div>
-          </div>
-
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Bỏ qua các nguyên nhân khác:</strong> Bệnh có thể do nhiều nguyên nhân - không chỉ là lạnh mà có thể do mệt mỏi, stress, v.v.
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Tóm tắt */}
-      <section className="bg-blue-50 p-8 rounded-lg shadow-lg">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><ListChecks size={32} /> Tóm Tắt</h3>
-        
-        <div className="space-y-3 text-black opacity-80">
-          <p>✓ <strong>Nguyên nhân</strong> = Lực hoặc tác động gây ra sự thay đổi</p>
-          <p>✓ <strong>Kết quả</strong> = Sự thay đổi do nguyên nhân gây ra</p>
-          <p>✓ Không có hiện tượng nào xảy ra mà không có nguyên nhân</p>
-          <p>✓ Kết quả của hiện tượng này có thể trở thành nguyên nhân của hiện tượng khác</p>
-          <p>✓ Hiểu rõ mối quan hệ nhân quả giúp chúng ta <strong>dự đoán</strong>, <strong>kiểm soát</strong>, và <strong>cải thiện</strong> cuộc sống</p>
-        </div>
-      </section>
     </div>
   )
 }
