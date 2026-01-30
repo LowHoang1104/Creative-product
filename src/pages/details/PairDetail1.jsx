@@ -17,7 +17,7 @@ export default function PairDetail1() {
       
       <div className="mb-8 p-6 rounded-lg" style={{ backgroundColor: '#C19A6B' }}>
         <p className="text-black font-semibold">
-          Một trong những cặp phạm trù cơ bản nhất trong triết học duyệt lý
+          Khái niệm cái riêng, cái chung và cái đơn nhất với tư cách là phạm trù cơ bản của phép biện chứng duy vật
         </p>
       </div>
 
@@ -25,171 +25,143 @@ export default function PairDetail1() {
         <img src={contentImages.pair1} alt="Cái chung - Cái riêng" className="w-full h-56 object-cover img-warm" />
       </div>
 
-      {/* Định Nghĩa */}
+      {/* Khái niệm */}
       <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><BookOpen size={32} /> Định Nghĩa</h3>
+        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><BookOpen size={32} /> Khái Niệm Cái Riêng, Cái Chung và Cái Đơn Nhất</h3>
+        <p className="text-black opacity-70 mb-6 italic">Với tư cách là phạm trù cơ bản của phép biện chứng duy vật</p>
         
         <div className="space-y-4">
           <div className="border-l-4 border-black pl-6">
-            <h4 className="text-xl font-bold text-black mb-2">Cái Chung (General)</h4>
+            <h4 className="text-xl font-bold text-black mb-2">Cái Riêng</h4>
             <p className="text-black opacity-80">
-              Những đặc tính, tính chất, thuộc tính chung có ở nhiều sự vật khác nhau. Nó biểu hiện những đặc điểm chung của một lớp sự vật, một loài, một kiểu.
-            </p>
-            <p className="text-black opacity-70 mt-2 italic">
-              Ví dụ: "Động vật" là cái chung cho cá, rắn, chim, người vì chúng đều có đặc điểm là sống động, phản ứng với môi trường.
+              Dùng để chỉ mỗi sự vật, mỗi hiện tượng, mỗi quá trình,... xác định, tồn tại tương đối độc lập so với các sự vật, hiện tượng, quá trình... khác.
             </p>
           </div>
 
           <div className="border-l-4 border-black pl-6">
-            <h4 className="text-xl font-bold text-black mb-2">Cái Riêng (Particular)</h4>
+            <h4 className="text-xl font-bold text-black mb-2">Cái Chung</h4>
             <p className="text-black opacity-80">
-              Những đặc tính, tính chất chỉ riêng có ở một sự vật nào đó hoặc một nhóm hẹp những sự vật. Nó phản ánh những điểm khác biệt so với các sự vật khác.
-            </p>
-            <p className="text-black opacity-70 mt-2 italic">
-              Ví dụ: "Người nói được ngôn ngữ" là cái riêng của loài người, phân biệt người với các động vật khác.
+              Dùng để chỉ những thuộc tính, tính chất,... lặp lại ở nhiều cái riêng.
             </p>
           </div>
 
           <div className="border-l-4 border-black pl-6">
-            <h4 className="text-xl font-bold text-black mb-2">Cái Đơn Nhất (Individual/Singular)</h4>
+            <h4 className="text-xl font-bold text-black mb-2">Cái Đơn Nhất</h4>
             <p className="text-black opacity-80">
-              Một cá thể cụ thể, duy nhất, không thể lặp lại. Đó là bản thân sự vật với tất cả những đặc tính cụ thể của nó.
+              Dùng để chỉ những thuộc tính, tính chất,... chỉ tồn tại ở một cái riêng nhất định.
             </p>
-            <p className="text-black opacity-70 mt-2 italic">
-              Ví dụ: "Tôi" - Nguyễn Văn A, sinh năm 1990, sống ở Hà Nội. Đây là một cá thể không thể lặp lại.
+          </div>
+
+          <div className="bg-gray-50 p-4 rounded-lg mt-4">
+            <p className="text-black opacity-80">
+              <strong>Ví dụ:</strong> Mỗi con người là một cái riêng; những thuộc tính tự nhiên và xã hội khiến cho con người khác với động vật giữ vai trò là cái chung của tất cả mọi người với tư cách người; nhưng mặt khác, ở mỗi con người lại có những thuộc tính không lặp lại ở nhau như: cấu tạo gen, nhân cách, năng lực,... cụ thể khác nhau.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Mối Liên Hệ */}
+      {/* Mối quan hệ biện chứng */}
       <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Link2 size={32} /> Mối Liên Hệ Giữa Ba Khái Niệm</h3>
+        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Link2 size={32} /> Mối Quan Hệ Biện Chứng Giữa Cái Chung, Cái Riêng và Cái Đơn Nhất</h3>
         
-        <div className="space-y-4 text-black opacity-80">
-          <p>
-            <strong>Cái chung</strong> tồn tại trong <strong>cái riêng</strong>, và <strong>cái riêng</strong> tồn tại trong <strong>cái đơn nhất</strong>. Chúng không đối lập mà bổ sung nhau:
-          </p>
-          
-          <div className="bg-gray-50 p-4 rounded">
-            <p className="font-semibold mb-3">Ví dụ về cây cam:</p>
-            <ul className="space-y-2 ml-4">
-              <li>🌳 <strong>Cái chung:</strong> "Cây ăn quả" - áp dụng cho cam, quýt, vú sữa...</li>
-              <li>🍊 <strong>Cái riêng:</strong> "Cây cam" - khác với cây quýt hoặc cây vú sữa</li>
-              <li>🌴 <strong>Cái đơn nhất:</strong> "Cây cam thứ 3 trong vườn nhà tôi" - một cây cụ thể</li>
-            </ul>
-          </div>
-
-          <p className="mt-4">
-            Từ <strong>cái đơn nhất</strong> (cây cam cụ thể) → <strong>cái riêng</strong> (loại cây cam) → <strong>cái chung</strong> (cây ăn quả), ta có quá trình <strong>khái quát hóa</strong>.
-          </p>
-          <p>
-            Từ <strong>cái chung</strong> → <strong>cái riêng</strong> → <strong>cái đơn nhất</strong>, ta có quá trình <strong>cụ thể hóa</strong>.
-          </p>
-        </div>
-      </section>
-
-      {/* Ví Dụ Thực Tế */}
-      <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ví Dụ Thực Tế</h3>
-        
-        <div className="space-y-6">
+        <div className="space-y-6 text-black opacity-80">
+          {/* Điểm 1 */}
           <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 1: Phân Loại Động Vật</h4>
-            <p className="text-black opacity-80">
-              Cái chung: "Động vật" | Cái riêng: "Động vật có vú" | Cái đơn nhất: "Con chó của tôi tên Minu"
+            <h4 className="text-xl font-bold text-black mb-3">1. Cái Chung Tồn Tại Trong Cái Riêng</h4>
+            <p className="mb-3">
+              Cái chung không tồn tại trừu tượng bên ngoài những cái riêng; trái lại, cái chung chỉ tồn tại trong mỗi cái riêng, biểu hiện thông qua mỗi cái riêng. Vì vậy, để nhận thức cái chung có thể dùng phương pháp quy nạp từ việc nghiên cứu nhiều cái riêng.
             </p>
-          </div>
-
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 2: Trong Xã Hội</h4>
-            <p className="text-black opacity-80">
-              Cái chung: "Con người" | Cái riêng: "Người Việt Nam" | Cái đơn nhất: "Bạn tôi Hoa, sống ở Sài Gòn"
-            </p>
-          </div>
-
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 3: Trong Công Nghệ</h4>
-            <p className="text-black opacity-80">
-              Cái chung: "Máy tính" | Cái riêng: "Máy tính xách tay" | Cái đơn nhất: "Laptop Dell XPS của tôi, số seri 12345"
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Ý Nghĩa */}
-      <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ý Nghĩa và Ứng Dụng</h3>
-        
-        <div className="space-y-4 text-black opacity-80">
-          <div>
-            <h4 className="font-bold text-black mb-2">1. Trong Khoa Học và Phân Loại</h4>
-            <p>
-              Giúp xây dựng các hệ thống phân loại khoa học: từ chủng tộc → giống → loài → cá thể. Đây là cơ sở của ngành phân loại sinh học (Taxonomy).
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">2. Trong Logic và Tư Duy</h4>
-            <p>
-              Rèn luyện khả năng suy luận logic: khái quát hóa và cụ thể hóa. Từ những ví dụ cụ thể, rút ra quy luật chung; hoặc từ quy luật chung, áp dụng vào trường hợp cụ thể.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">3. Trong Pháp Luật</h4>
-            <p>
-              Luật pháp đưa ra những quy định chung (cái chung) áp dụng cho tất cả công dân (cái riêng) trong những tình huống cụ thể (cái đơn nhất).
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">4. Trong Giáo Dục</h4>
-            <p>
-              Giáo viên dạy những nguyên lý chung (Cái chung) → Học sinh áp dụng vào các môn học khác nhau (Cái riêng) → Giải quyết những bài toán cụ thể (Cái đơn nhất).
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Lỗi Thường Gặp */}
-      <section className="bg-red-50 p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><AlertTriangle size={32} /> Những Lỗi Thường Gặp</h3>
-        
-        <div className="space-y-4 text-black opacity-80">
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Nhầm lẫn cái chung với cái riêng:</strong> Ví dụ, coi "chim" là cái chung nhưng chỉ nói đến các chim ở Việt Nam (đó là cái riêng).
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="text-sm">
+                <strong>Ví dụ:</strong> Trên cơ sở khảo sát tình hình hoạt động cụ thể của một số doanh nghiệp có thể rút ra kết luận về tình trạng chung của các doanh nghiệp trong nền kinh tế.
+              </p>
             </div>
           </div>
 
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Quên rằng cái đơn nhất luôn có những đặc tính chung:</strong> Mỗi con người có những đặc tính chung của loài người, không hoàn toàn độc nhất.
+          {/* Điểm 2 */}
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-3">2. Cái Riêng Tồn Tại Trong Mối Quan Hệ Với Cái Chung</h4>
+            <p className="mb-3">
+              Cái riêng chỉ tồn tại trong mối quan hệ với cái chung; không có cái riêng tồn tại độc lập tuyệt đối tách rời cái chung. Vì vậy, để giải quyết mỗi vấn đề riêng không thể bất chấp cái chung, đặc biệt là cái chung là cái thuộc bản chất, quy luật phổ biến...
+            </p>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="text-sm">
+                <strong>Ví dụ:</strong> Không có doanh nghiệp nào tồn tại với tư cách doanh nghiệp mà lại không tuân theo các quy tắc chung của thị trường (ví dụ quy tắc cạnh tranh...). Nếu doanh nghiệp nào đó bất chấp các nguyên tắc chung đó thì nó không thể tồn tại trong nền kinh tế thị trường.
+              </p>
             </div>
           </div>
 
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Cho rằng cái đơn nhất không quan trọng:</strong> Thực tế, cái đơn nhất là nơi hiện thực hoá của cái chung và cái riêng.
+          {/* Điểm 3 */}
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-3">3. Cái Riêng Phong Phú Hơn, Cái Chung Sâu Sắc Hơn</h4>
+            <p className="mb-3">
+              Cái riêng là cái toàn bộ, phong phú, đa dạng hơn cái chung; còn cái chung là cái bộ phận nhưng sâu sắc, bản chất hơn cái riêng. Vì vậy, chẳng những việc giải quyết mỗi vấn đề riêng không thể bất chấp cái chung mà còn phải xét đến cái phong phú, lịch sử khi vận dụng cái chung.
+            </p>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="text-sm">
+                <strong>Ví dụ:</strong> Khi vận dụng những nguyên lý chung của khoa học vào việc giải quyết mỗi vấn đề riêng cần phải xét đến những điều kiện lịch sử, cụ thể tạo nên cái đơn nhất (đặc thù) của nó. Cần tránh thái độ chung chung, trừu tượng khi giải quyết mỗi vấn đề riêng.
+              </p>
+            </div>
+          </div>
+
+          {/* Điểm 4 */}
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-3">4. Sự Chuyển Hóa Giữa Cái Chung và Cái Đơn Nhất</h4>
+            <p className="mb-3">
+              Cái chung và cái đơn nhất có thể chuyển hóa cho nhau trong những điều kiện xác định của quá trình vận động, phát triển của sự vật. Vì vậy, tùy từng mục đích có thể tạo ra những điều kiện để thực hiện sự chuyển hóa từ cái đơn nhất thành cái chung hay ngược lại.
+            </p>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="text-sm">
+                <strong>Ví dụ:</strong> Một sáng kiến khi mới ra đời - nó là cái đơn nhất. Với mục đích nhân rộng sáng kiến đó áp dụng trong thực tiễn phát triển kinh tế - xã hội, có thể thông qua các tổ chức trao đổi, học tập để phổ biến sáng kiến đó thành cái chung, cái phổ biến - khi đó cái đơn nhất đã trở thành cái chung...
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Tóm tắt */}
-      <section className="bg-blue-50 p-8 rounded-lg shadow-lg">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><ListChecks size={32} /> Tóm Tắt</h3>
+      {/* Ý nghĩa phương pháp luận */}
+      <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
+        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ý Nghĩa Phương Pháp Luận Của Cái Chung và Cái Riêng</h3>
         
-        <div className="space-y-3 text-black opacity-80">
-          <p>✓ <strong>Cái chung</strong> = Những đặc tính chung của nhiều sự vật</p>
-          <p>✓ <strong>Cái riêng</strong> = Những đặc tính khác biệt của một nhóm sự vật</p>
-          <p>✓ <strong>Cái đơn nhất</strong> = Một cá thể cụ thể, duy nhất</p>
-          <p>✓ Chúng không đối lập mà <strong>bổ sung</strong> nhau trong một thứ tự: Cái chung → Cái riêng → Cái đơn nhất</p>
-          <p>✓ Hiểu rõ cặp phạm trù này giúp chúng ta <strong>phân loại tri thức</strong> và <strong>rèn luyện tư duy logic</strong></p>
+        <p className="text-black opacity-80 mb-6">
+          Ý nghĩa phương pháp luận của cặp phạm trù cái chung và cái riêng trong triết học Mác-Lênin rất quan trọng, giúp chúng ta hiểu rõ hơn về bản chất của sự vật, hiện tượng và định hướng trong nghiên cứu khoa học cũng như trong thực tiễn đời sống. Dưới đây là một số ý nghĩa chính:
+        </p>
+
+        <div className="space-y-6 text-black opacity-80">
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-2">Giúp Hiểu Rõ Bản Chất Của Sự Vật, Hiện Tượng</h4>
+            <p>
+              Việc phân tích mối quan hệ giữa cái chung và cái riêng giúp chúng ta nhận biết và phân biệt các đặc điểm chung và riêng của sự vật, hiện tượng. Điều này giúp hiểu sâu hơn về cấu trúc và đặc tính của chúng.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-2">Định Hướng Trong Nghiên Cứu Khoa Học</h4>
+            <p>
+              Phương pháp luận này giúp các nhà khoa học xác định các quy luật chung và riêng của các hiện tượng tự nhiên và xã hội, từ đó đưa ra các giả thuyết và lý thuyết khoa học chính xác hơn.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-2">Cơ Sở Cho Việc Phân Loại Và Tổng Hợp Thông Tin</h4>
+            <p>
+              Nhận biết cái chung và cái riêng giúp chúng ta phân loại và tổng hợp thông tin một cách hệ thống, logic, từ đó dễ dàng hơn trong việc nghiên cứu và ứng dụng vào thực tiễn.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-2">Ứng Dụng Trong Thực Tiễn Đời Sống</h4>
+            <p>
+              Trong quản lý và điều hành, việc hiểu rõ mối quan hệ giữa cái chung và cái riêng giúp đưa ra các quyết định phù hợp với từng hoàn cảnh cụ thể, đảm bảo tính hiệu quả và khả thi.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-2">Phát Triển Tư Duy Biện Chứng</h4>
+            <p>
+              Phương pháp luận này giúp phát triển tư duy biện chứng, tức là khả năng nhìn nhận sự vật, hiện tượng trong mối quan hệ qua lại, tác động lẫn nhau, từ đó có cái nhìn toàn diện và sâu sắc hơn về thế giới xung quanh.
+            </p>
+          </div>
         </div>
       </section>
     </div>

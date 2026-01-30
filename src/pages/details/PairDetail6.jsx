@@ -25,254 +25,235 @@ export default function PairDetail6() {
         <img src={contentImages.pair6} alt="Khả năng - Hiện thực" className="w-full h-56 object-cover img-warm" />
       </div>
 
-      {/* Định Nghĩa */}
+      {/* 1. Khái niệm */}
       <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><BookOpen size={32} /> Định Nghĩa</h3>
+        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><BookOpen size={32} /> 1. Khái Niệm</h3>
         
         <div className="space-y-4">
           <div className="border-l-4 border-black pl-6">
-            <h4 className="text-xl font-bold text-black mb-2">Khả Năng (Possibility)</h4>
+            <h4 className="text-xl font-bold text-black mb-2">1.1 Hiện Thực</h4>
             <p className="text-black opacity-80">
-              Những điều có thể xảy ra, có thể tồn tại trong những điều kiện thích hợp nhưng chưa xảy ra hoặc chưa tồn tại. Nó là tiềm năng, những cơ hội, những lựa chọn có thể.
+              Hiện thực là những gì đang tồn tại thực sự, đã hình thành, đã bộc lộ trong thế giới khách quan.
             </p>
-            <p className="text-black opacity-70 mt-2 italic">
-              Ví dụ: Bạn có khả năng trở thành bác sĩ (nếu học tập chăm chỉ) | Một hạt giống có khả năng thành cây
-            </p>
+            <div className="bg-gray-50 p-3 rounded mt-2">
+              <p className="text-sm text-black opacity-80">
+                <strong>Ví dụ:</strong> Bạn hiện đang là sinh viên năm 2, đó là hiện thực.
+              </p>
+            </div>
           </div>
 
           <div className="border-l-4 border-black pl-6">
-            <h4 className="text-xl font-bold text-black mb-2">Hiện Thực (Reality)</h4>
+            <h4 className="text-xl font-bold text-black mb-2">1.2 Khả Năng</h4>
             <p className="text-black opacity-80">
-              Những điều đã xảy ra, đã tồn tại thực tế. Nó không còn là tiềm năng mà đã trở thành sự kiện, sự vật cụ thể có thể được cảm nhận.
+              Khả năng là những gì chưa tồn tại, chưa xuất hiện trong hiện thực, nhưng có thể xuất hiện, có thể trở thành hiện thực khi có những điều kiện nhất định.
             </p>
-            <p className="text-black opacity-70 mt-2 italic">
-              Ví dụ: Bạn đã trở thành bác sĩ, đang làm việc tại bệnh viện | Hạt giống đã thành cây, đã sinh ra quả
+            <div className="bg-gray-50 p-3 rounded mt-2">
+              <p className="text-sm text-black opacity-80">
+                <strong>Ví dụ:</strong> Bạn có khả năng trở thành sinh viên giỏi trong tương lai.
+              </p>
+            </div>
+          </div>
+
+          <div className="border-l-4 border-yellow-400 pl-6 mt-4" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-lg font-bold text-black mb-2">Lưu Ý:</h4>
+            <p className="text-black opacity-80">
+              Khả năng không phải là tưởng tượng chủ quan, mà nảy sinh từ chính hiện thực.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Mối Liên Hệ */}
+      {/* 2. Mối quan hệ biện chứng giữa khả năng và hiện thực */}
       <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Link2 size={32} /> Mối Liên Hệ Giữa Khả Năng và Hiện Thực</h3>
+        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Link2 size={32} /> 2. Mối Quan Hệ Biện Chứng Giữa Khả Năng và Hiện Thực</h3>
         
-        <div className="space-y-4 text-black opacity-80">
-          <div className="bg-yellow-50 p-4 rounded" style={{ backgroundColor: '#f0ebe3' }}>
-            <p className="font-semibold text-black mb-2">💡 Quy Luật Cơ Bản:</p>
-            <p>
-              <strong>Sự phát triển của sự vật là quá trình chuyển hóa từ khả năng thành hiện thực.</strong> Không phải tất cả khả năng đều trở thành hiện thực - phụ thuộc vào điều kiện và hoàn cảnh.
+        <div className="space-y-6 text-black opacity-80">
+          {/* Hiện thực chứa đựng khả năng */}
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-3">🔹 Hiện Thực Chứa Đựng Khả Năng</h4>
+            <p className="mb-3">
+              Trong mỗi hiện thực đều tiềm ẩn những khả năng phát triển mới.
             </p>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="text-sm">
+                <strong>Hiện thực:</strong> Bạn đang học đại học<br/>
+                → <strong>chứa khả năng:</strong> có nghề nghiệp tốt, phát triển bản thân.
+              </p>
+            </div>
           </div>
 
-          <div className="bg-blue-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">Chiều hướng phát triển:</h4>
-            <p>
-              Khả năng → Hiện thực là chiều hướng phát triển tự nhiên. Hiện thực không thể quay trở lại khả năng (trừ trong trường hợp suy thoái).
+          {/* Khả năng có thể chuyển hóa thành hiện thực */}
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-3">🔹 Khả Năng Có Thể Chuyển Hóa Thành Hiện Thực</h4>
+            <p className="mb-3">
+              Khi có điều kiện khách quan và chủ quan phù hợp, khả năng sẽ trở thành hiện thực.
             </p>
+            <div className="bg-blue-50 p-4 rounded-lg">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-3">
+                <div>
+                  <p className="font-semibold text-black mb-2">Điều kiện khách quan:</p>
+                  <ul className="space-y-1 text-sm ml-4">
+                    <li>• Môi trường học tập</li>
+                    <li>• Thời gian</li>
+                    <li>• Tài liệu</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="font-semibold text-black mb-2">Điều kiện chủ quan:</p>
+                  <ul className="space-y-1 text-sm ml-4">
+                    <li>• Ý thức học tập</li>
+                    <li>• Sự cố gắng</li>
+                    <li>• Phương pháp đúng</li>
+                  </ul>
+                </div>
+              </div>
+              <p className="text-sm">
+                <strong>Có khả năng học giỏi</strong> + <strong>học chăm</strong> + <strong>phương pháp đúng</strong> → trở thành sinh viên giỏi.
+              </p>
+            </div>
           </div>
 
-          <div className="bg-blue-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">Vai trò của điều kiện:</h4>
-            <p>
-              Để khả năng trở thành hiện thực, cần những điều kiện nhất định. Không có điều kiện, khả năng sẽ mãi là khả năng mà không bao giờ thực hiện.
+          {/* Không phải mọi khả năng đều trở thành hiện thực */}
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-3">🔹 Không Phải Mọi Khả Năng Đều Trở Thành Hiện Thực</h4>
+            <p className="mb-3">
+              Nếu thiếu điều kiện, khả năng chỉ tồn tại ở dạng tiềm năng.
             </p>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="text-sm">
+                Nhiều sinh viên có khả năng giỏi, nhưng không nỗ lực → khả năng không thành hiện thực.
+              </p>
+            </div>
           </div>
 
-          <div className="bg-blue-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">Tính chất của hiện thực:</h4>
-            <p>
-              Hiện thực còn chứa trong nó những khả năng mới. Ví dụ: Cây lớn lên (từ khả năng thành hiện thực), nhưng cây lớn này lại có khả năng sinh ra quả mới.
+          {/* Phân loại khả năng */}
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-3">🔹 Phân Loại Khả Năng (Rất Quan Trọng)</h4>
+            <p className="mb-3">
+              Theo giáo trình, khả năng gồm:
             </p>
+            <div className="bg-gray-50 p-4 rounded-lg overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b-2 border-black">
+                    <th className="text-left p-2 font-bold text-black">Loại khả năng</th>
+                    <th className="text-left p-2 font-bold text-black">Đặc điểm</th>
+                    <th className="text-left p-2 font-bold text-black">Ví dụ</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b">
+                    <td className="p-2 font-semibold text-black">Khả năng tất nhiên</td>
+                    <td className="p-2">Có cơ sở chắc chắn, dễ thành hiện thực</td>
+                    <td className="p-2">Chăm học → điểm cao</td>
+                  </tr>
+                  <tr>
+                    <td className="p-2 font-semibold text-black">Khả năng ngẫu nhiên</td>
+                    <td className="p-2">Phụ thuộc may mắn, điều kiện bên ngoài</td>
+                    <td className="p-2">Trúng thưởng, cơ hội bất ngờ</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Ví Dụ Thực Tế */}
+      {/* 3. Ý nghĩa phương pháp luận */}
       <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ví Dụ Thực Tế</h3>
+        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> 3. Ý Nghĩa Phương Pháp Luận</h3>
         
-        <div className="space-y-6">
+        <p className="text-black opacity-80 mb-6">
+          Từ mối quan hệ này, rút ra các bài học:
+        </p>
+
+        <div className="space-y-6 text-black opacity-80">
+          {/* Bài học 1 */}
           <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 1: Hạt Giống Thành Cây</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Khả Năng:</strong> Hạt giống có khả năng thành cây (nếu được trồng đúng cách)</p>
-              <p className="mt-2">→ <strong>Điều kiện cần thiết:</strong> Đất tốt, nước, ánh nắng, nhiệt độ phù hợp</p>
-              <p className="mt-2">→ <strong>Hiện Thực:</strong> Hạt nảy mầm, lớn thành cây, cho quả</p>
-              <p className="mt-2 italic text-sm">Nếu thiếu một trong những điều kiện, khả năng sẽ không thực hiện và hạt sẽ chết</p>
+            <h4 className="text-xl font-bold text-black mb-2">- Phải Biết Phát Hiện Khả Năng Trong Hiện Thực</h4>
+            <p className="mb-2">
+              Không nhìn sự vật ở trạng thái tĩnh, mà phải thấy tiềm năng phát triển của nó.
+            </p>
+            <div className="bg-gray-50 p-3 rounded">
+              <p className="text-sm">
+                <strong>Ví dụ:</strong> Gia đình chưa khá giả không có nghĩa tương lai không thể khá hơn.
+              </p>
             </div>
           </div>
 
+          {/* Bài học 2 */}
           <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 2: Học Tập Trở Thành Bác Sĩ</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Khả Năng:</strong> Bạn có khả năng trở thành bác sĩ (khả năng tiềm ẩn)</p>
-              <p className="mt-2">→ <strong>Điều kiện cần thiết:</strong> Học tập chăm chỉ, vào trường y, làm bài tập thực hành, thi đậu</p>
-              <p className="mt-2">→ <strong>Hiện Thực:</strong> Bạn tốt nghiệp, có bằng cấp, làm việc tại bệnh viện</p>
-              <p className="mt-2">Nếu bỏ cuộc giữa đường, khả năng sẽ không thực hiện</p>
+            <h4 className="text-xl font-bold text-black mb-2">- Muốn Biến Khả Năng Thành Hiện Thực Phải Tạo Điều Kiện</h4>
+            <p className="mb-2">
+              Khả năng không tự biến thành hiện thực nếu không có hành động.
+            </p>
+            <div className="bg-gray-50 p-3 rounded">
+              <p className="text-sm">
+                <strong>Ví dụ:</strong> Muốn giỏi → phải học và rèn luyện.
+              </p>
             </div>
           </div>
 
+          {/* Bài học 3 */}
           <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 3: Tài Năng Âm Nhạc</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Khả Năng:</strong> Ai đó có khả năng trở thành nhạc sĩ xuất sắc</p>
-              <p className="mt-2">→ <strong>Điều kiện cần thiết:</strong> Huấn luyện từ sớm, luyện tập hàng ngày, có người hướng dẫn tốt</p>
-              <p className="mt-2">→ <strong>Hiện Thực:</strong> Trở thành nhạc sĩ chuyên nghiệp, biểu diễn trên sân khấu lớn</p>
-              <p className="mt-2">Nếu không có điều kiện để phát triển, tài năng sẽ bị phí lãng</p>
-            </div>
+            <h4 className="text-xl font-bold text-black mb-2">- Phải Phân Biệt Khả Năng Tất Nhiên và Khả Năng Ngẫu Nhiên</h4>
+            <p>
+              Để tập trung vào những khả năng có cơ sở, tránh ảo tưởng.
+            </p>
           </div>
 
+          {/* Tránh hai sai lầm */}
           <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 4: Ý Tưởng Thành Sản Phẩm</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Khả Năng:</strong> Bạn có ý tưởng tốt cho một ứng dụng di động</p>
-              <p className="mt-2">→ <strong>Điều kiện cần thiết:</strong> Tìm nhà đầu tư, lập đội ngũ lập trình, phát triển sản phẩm, quảng cáo</p>
-              <p className="mt-2">→ <strong>Hiện Thực:</strong> Ứng dụng được ra mắt, có hàng triệu người dùng</p>
-              <p className="mt-2">Nếu chỉ có ý tưởng mà không hành động, khả năng sẽ mãi là khả năng</p>
+            <h4 className="text-xl font-bold text-black mb-3">- Tránh Hai Sai Lầm</h4>
+            <div className="bg-red-50 p-4 rounded-lg overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b-2 border-black">
+                    <th className="text-left p-2 font-bold text-black">Sai lầm</th>
+                    <th className="text-left p-2 font-bold text-black">Biểu hiện</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b">
+                    <td className="p-2 font-semibold text-black">Bi quan</td>
+                    <td className="p-2">Cho rằng hiện thực hiện tại là cố định</td>
+                  </tr>
+                  <tr>
+                    <td className="p-2 font-semibold text-black">Ảo tưởng</td>
+                    <td className="p-2">Tin rằng có khả năng là đủ, không cần cố gắng</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
 
+          {/* Ví dụ tổng hợp */}
           <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 5: Khả Năng Thay Đổi Cuộc Sống</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Khả Năng:</strong> Bạn có khả năng thoát ra khỏi giai đoạn khó khăn</p>
-              <p className="mt-2">→ <strong>Điều kiện cần thiết:</strong> Quyết tâm, hỗ trợ từ gia đình, cơ hội việc làm</p>
-              <p className="mt-2">→ <strong>Hiện Thực:</strong> Bạn thoát khỏi khó khăn, cuộc sống tốt hơn</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Các Loại Khả Năng */}
-      <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Các Loại Khả Năng</h3>
-        
-        <div className="space-y-4 text-black opacity-80">
-          <div className="bg-green-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">1. Khả Năng Thực (Real Possibility)</h4>
-            <p>
-              Là những khả năng có cơ sở thực tế, có thể xảy ra nếu có đủ điều kiện. Ví dụ: Một học sinh giỏi toán có khả năng thực trở thành kỹ sư (nếu tiếp tục học).
-            </p>
-          </div>
-
-          <div className="bg-green-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">2. Khả Năng Trừu Tượng (Abstract Possibility)</h4>
-            <p>
-              Là những khả năng logic, có thể lý thuyết xảy ra nhưng ít có cơ sở thực tế. Ví dụ: Bất kỳ ai cũng có khả năng trở thành thiên tài (lý thuyết), nhưng ít có cơ sở thực tế.
-            </p>
-          </div>
-
-          <div className="bg-green-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">3. Khả Năng Tốt (Good Possibility)</h4>
-            <p>
-              Là những khả năng dẫn đến kết quả tích cực, mong muốn. Ví dụ: Bạn có khả năng tốt là thành công nếu chăm chỉ.
-            </p>
-          </div>
-
-          <div className="bg-green-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">4. Khả Năng Xấu (Bad Possibility)</h4>
-            <p>
-              Là những khả năng dẫn đến kết quả tiêu cực, không mong muốn. Ví dụ: Bạn có khả năng thất bại nếu lười biếng.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Ứng Dụng */}
-      <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ứng Dụng Thực Tế</h3>
-        
-        <div className="space-y-4 text-black opacity-80">
-          <div>
-            <h4 className="font-bold text-black mb-2">1. Trong Giáo Dục</h4>
-            <p>
-              Hiểu rằng học sinh có nhiều khả năng, và nhiệm vụ của giáo dục là tạo điều kiện để những khả năng đó trở thành hiện thực. Mỗi học sinh có tiềm năng khác nhau, cần giáo dục phù hợp.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">2. Trong Quản Lý Nhân Sự</h4>
-            <p>
-              Nhà quản lý cần xác định khả năng của từng nhân viên, rồi tạo điều kiện để họ phát triển. Tìm việc làm phù hợp với khả năng của họ.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">3. Trong Lập Kế Hoạch</h4>
-            <p>
-              Lập kế hoạch chiến lược dựa trên những khả năng có thể có. Nhưng phải chuẩn bị những điều kiện cần thiết để khả năng đó thực hiện.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">4. Trong Phát Triển Cá Nhân</h4>
-            <p>
-              Nhận biết những khả năng tiềm ẩn của bản thân, rồi tạo điều kiện (học tập, luyện tập, kiên trì) để thực hiện những khả năng đó. Những khả năng không được phát triển sẽ bị lãng phí.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">5. Trong Phòng Chống Rủi Ro</h4>
-            <p>
-              Dự đoán những khả năng xấu (rủi ro) có thể xảy ra, rồi chuẩn bị để ngăn chặn. Ví dụ: Bảo hiểm dựa trên ý tưởng về những khả năng xấu có thể xảy ra.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Lỗi Thường Gặp */}
-      <section className="bg-red-50 p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><AlertTriangle size={32} /> Những Lỗi Thường Gặp</h3>
-        
-        <div className="space-y-4 text-black opacity-80">
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Cho rằng khả năng là chắc chắn:</strong> "Tôi có tiền năng, nên chắc chắn sẽ thành công" → Thực tế cần những điều kiện và nỗ lực.
+            <h4 className="text-xl font-bold text-black mb-3">- Ví Dụ Tổng Hợp Dễ Hiểu:</h4>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <p className="mb-2"><strong>Hiện thực:</strong> Bạn học lực trung bình.</p>
+              <p className="mb-2"><strong>Khả năng:</strong> Bạn có thể đạt loại giỏi.</p>
+              <p className="mb-2"><strong>Nhưng điều đó chỉ xảy ra khi:</strong></p>
+              <ul className="ml-4 space-y-1 text-sm">
+                <li>+ Bạn thay đổi phương pháp học</li>
+                <li>+ Quản lý thời gian tốt</li>
+                <li>+ Tăng thời gian tự học</li>
+              </ul>
+              <p className="mt-2 text-sm italic">
+                Nếu không → khả năng mãi chỉ là "có thể".
+              </p>
             </div>
           </div>
 
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Coi nhẹ vai trò của điều kiện:</strong> "Tôi không cần học/luyện tập vì tôi có tài năng" → Sai! Tài năng cần được phát triển qua điều kiện.
-            </div>
+          {/* Rút ra kết luận */}
+          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-xl font-bold text-black mb-3">- Rút Ra Kết Luận:</h4>
+            <ul className="space-y-2 ml-4">
+              <li>+ Hiện thực luôn chứa đựng khả năng.</li>
+              <li>+ Khả năng có thể trở thành hiện thực khi có đủ điều kiện.</li>
+              <li>+ Con người phải chủ động tạo điều kiện để biến khả năng thành hiện thực.</li>
+            </ul>
           </div>
-
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Không tin vào khả năng của mình:</strong> "Tôi không có khả năng trở thành..." → Bỏ qua những tiềm năng có thể phát triển.
-            </div>
-          </div>
-
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Chỉ chú trọng khả năng hiện tại:</strong> Quên rằng hiện thực vừa rồi còn chứa những khả năng mới. Cần liên tục phát triển những khả năng mới.
-            </div>
-          </div>
-
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Nhầm lẫn khả năng với tính năng:</strong> "Máy tính này có khả năng chạy game" → Đúng, nhưng đó là tính năng (hiện thực) của máy, không phải khả năng (tiềm năng).
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Tóm tắt */}
-      <section className="bg-blue-50 p-8 rounded-lg shadow-lg">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><ListChecks size={32} /> Tóm Tắt</h3>
-        
-        <div className="space-y-3 text-black opacity-80">
-          <p>✓ <strong>Khả Năng</strong> = Những điều có thể xảy ra, nhưng chưa xảy ra</p>
-          <p>✓ <strong>Hiện Thực</strong> = Những điều đã xảy ra, đã tồn tại</p>
-          <p>✓ Sự phát triển = Quá trình chuyển hóa từ khả năng thành hiện thực</p>
-          <p>✓ <strong>Không phải tất cả khả năng đều thành hiện thực</strong> - cần những điều kiện thích hợp</p>
-          <p>✓ Hiện thực vừa rồi lại chứa những khả năng mới - quá trình phát triển không bao giờ dừng lại</p>
-          <p>✓ Hiểu rõ cặp phạm trù này giúp chúng ta <strong>khám phá tiềm năng, lập kế hoạch, và tạo điều kiện để thực hiện mục tiêu</strong></p>
         </div>
       </section>
     </div>

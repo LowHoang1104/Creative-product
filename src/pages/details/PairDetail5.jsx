@@ -25,245 +25,176 @@ export default function PairDetail5() {
         <img src={contentImages.pair5} alt="Bản chất - Hiện tượng" className="w-full h-56 object-cover img-warm" />
       </div>
 
-      {/* Định Nghĩa */}
+      {/* 1. Khái niệm */}
       <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><BookOpen size={32} /> Định Nghĩa</h3>
+        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><BookOpen size={32} /> 1. Khái Niệm</h3>
         
         <div className="space-y-4">
           <div className="border-l-4 border-black pl-6">
-            <h4 className="text-xl font-bold text-black mb-2">Bản Chất (Essence)</h4>
-            <p className="text-black opacity-80">
-              Những đặc tính cơ bản, sâu xa, ổn định của sự vật. Nó xác định danh tính của sự vật - cái gì làm cho sự vật là chính nó, không phải sự vật khác. Bản chất là trong, cơ bản, quyết định.
+            <h4 className="text-xl font-bold text-black mb-2">Bản Chất</h4>
+            <p className="text-black opacity-80 mb-2">
+              Là phạm trù chỉ tổng hợp những mối liên hệ tất nhiên, tương đối ổn định, bên trong của sự vật, hiện tượng, quy định sự tồn tại, vận động và phát triển của sự vật, hiện tượng đó.
             </p>
-            <p className="text-black opacity-70 mt-2 italic">
-              Ví dụ: Bản chất của nước là H₂O | Bản chất của con người là có lý trí, có tư duy
+            <p className="text-black opacity-70 italic">
+              → Bản chất thường không bộc lộ trực tiếp, phải thông qua hiện tượng mới nhận thức được.
             </p>
           </div>
 
           <div className="border-l-4 border-black pl-6">
-            <h4 className="text-xl font-bold text-black mb-2">Hiện Tượng (Phenomenon)</h4>
-            <p className="text-black opacity-80">
-              Những biểu hiện bên ngoài, có thể thay đổi, có thể được nhận thức trực tiếp qua các giác quan (nhìn, nghe, sờ, nếm, ngửi). Hiện tượng là bề ngoài, hiển hiện, phong phú.
+            <h4 className="text-xl font-bold text-black mb-2">Hiện Tượng</h4>
+            <p className="text-black opacity-80 mb-2">
+              Là phạm trù chỉ những biểu hiện ra bên ngoài của sự vật, hiện tượng, thông qua đó bản chất được bộc lộ.
             </p>
-            <p className="text-black opacity-70 mt-2 italic">
-              Ví dụ: Hiện tượng của nước là trong suốt, lỏng, không màu, lạnh | Hiện tượng của con người là đi bộ, nói chuyện, tỏ cảm xúc
+            <p className="text-black opacity-70 italic">
+              → Hiện tượng đa dạng, phong phú, có thể thay đổi nhanh hơn bản chất.
             </p>
+          </div>
+
+          <div className="bg-gray-50 p-4 rounded-lg mt-4">
+            <p className="font-semibold text-black mb-2">Ví dụ:</p>
+            <div className="space-y-2 text-black opacity-80">
+              <p><strong>Hiện tượng:</strong> Sinh viên đạt điểm cao, điểm thấp, đi học đầy đủ hay nghỉ học nhiều.</p>
+              <p><strong>Bản chất:</strong> Trình độ nhận thức, ý thức học tập, phương pháp học tập, năng lực tư duy của sinh viên.</p>
+              <p className="text-sm italic">Một sinh viên có thể đi học đầy đủ (hiện tượng) nhưng nếu phương pháp học tập kém (bản chất) thì kết quả vẫn không cao.</p>
+            </div>
+          </div>
+
+          <div className="border-l-4 border-yellow-400 pl-6 mt-4" style={{ borderLeftColor: '#C19A6B' }}>
+            <h4 className="text-lg font-bold text-black mb-2">Phân Biệt Hiện Tượng Với Biểu Hiện Bề Ngoài Ngẫu Nhiên</h4>
+            <p className="text-black opacity-80 mb-2">
+              Không phải mọi cái ta quan sát được đều phản ánh đúng bản chất. Có những hiện tượng chỉ là biểu hiện bên ngoài, nhất thời, có thể che giấu hoặc làm sai lệch bản chất.
+            </p>
+            <div className="bg-gray-50 p-3 rounded mt-2">
+              <p className="text-sm text-black opacity-80">
+                <strong>Ví dụ:</strong> Một sinh viên đạt điểm cao trong một kỳ thi có thể do học tủ hoặc may mắn, nhưng điều đó chưa phản ánh đúng bản chất năng lực thực sự của sinh viên đó.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Mối Liên Hệ */}
+      {/* 2. Mối quan hệ giữa bản chất và hiện tượng */}
       <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Link2 size={32} /> Mối Liên Hệ Giữa Bản Chất và Hiện Tượng</h3>
+        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Link2 size={32} /> 2. Mối Quan Hệ Giữa Bản Chất và Hiện Tượng</h3>
         
-        <div className="space-y-4 text-black opacity-80">
-          <div className="bg-yellow-50 p-4 rounded" style={{ backgroundColor: '#f0ebe3' }}>
-            <p className="font-semibold text-black mb-2">💡 Quy Luật Cơ Bản:</p>
+        {/* a. Bản chất quyết định hiện tượng */}
+        <div className="mb-8">
+          <h4 className="text-2xl font-bold text-black mb-4">a. Bản Chất Quyết Định Hiện Tượng</h4>
+          
+          <div className="space-y-4 text-black opacity-80">
             <p>
-              <strong>Bản chất biểu hiện qua hiện tượng.</strong> Bạn không thể thấy bản chất trực tiếp, chỉ có thể thấy những biểu hiện (hiện tượng). Nhưng từ những hiện tượng, bạn có thể suy đoán ra bản chất.
+              Bản chất là cái quyết định hiện tượng, còn hiện tượng là sự biểu hiện của bản chất ra bên ngoài.
             </p>
+            <p>
+              Mỗi sự vật chỉ có một bản chất nhất định, nhưng có thể biểu hiện ra nhiều hiện tượng khác nhau trong những điều kiện khác nhau.
+            </p>
+            <p className="italic">
+              → Vì bản chất tồn tại bên trong nên không phải lúc nào cũng dễ nhận ra, còn hiện tượng thì dễ quan sát hơn.
+            </p>
+            <div className="bg-gray-50 p-4 rounded-lg mt-4">
+              <p className="font-semibold text-black mb-2">Ví dụ: Bản chất của một người lương thiện, tốt bụng.</p>
+              <ul className="space-y-1 ml-4 text-sm">
+                <li>• Khi nhặt được của rơi họ sẽ cố gắng trả lại người làm mất.</li>
+                <li>• Khi ai đó gặp khó khăn họ cũng sẽ giúp đỡ.</li>
+              </ul>
+              <p className="mt-2 text-sm italic">
+                → Dù hình thức hành động thay đổi, bản chất tốt vẫn tạo ra những hiện tượng tích cực khác nhau.
+              </p>
+            </div>
           </div>
+        </div>
 
-          <div className="bg-blue-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">Sự bổ sung:</h4>
+        {/* b. Hiện tượng phản ánh bản chất */}
+        <div className="mb-8">
+          <h4 className="text-2xl font-bold text-black mb-4">b. Hiện Tượng Phản Ánh Bản Chất</h4>
+          
+          <div className="space-y-4 text-black opacity-80">
             <p>
-              Bản chất phải biểu hiện qua hiện tượng, còn hiện tượng phản ánh bản chất. Chúng không thể tách rời.
+              Hiện tượng là con đường để con người nhận thức bản chất.
             </p>
+            <p>
+              Thông qua việc quan sát, phân tích nhiều hiện tượng khác nhau, con người có thể từng bước tiếp cận và hiểu đúng bản chất của sự vật.
+            </p>
+            <p className="font-semibold">Tuy nhiên:</p>
+            <ul className="ml-4 space-y-2">
+              <li>• Hiện tượng có thể phản ánh đúng bản chất,</li>
+              <li>• Nhưng cũng có thể phản ánh sai lệch hoặc không đầy đủ bản chất, đặc biệt trong những điều kiện phức tạp.</li>
+            </ul>
+            <div className="bg-gray-50 p-4 rounded-lg mt-4">
+              <p className="font-semibold text-black mb-2">Ví dụ: Một người giúp đỡ bạn.</p>
+              <div className="space-y-2 text-sm">
+                <p>• Nếu chỉ nhìn hiện tượng → có thể kết luận họ là người tốt bụng, sẵn sàng giúp đỡ người khác.</p>
+                <p>• Nhưng khi tìm hiểu bản chất → có thể họ chỉ giúp để lợi dụng bạn, làm việc xấu với bạn.</p>
+              </div>
+              <p className="mt-2 text-sm italic">
+                → Hiện tượng chưa phản ánh đầy đủ bản chất nếu chưa được xem xét toàn diện.
+              </p>
+            </div>
           </div>
+        </div>
 
-          <div className="bg-blue-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">Sự ổn định và thay đổi:</h4>
+        {/* c. Mối quan hệ thống nhất nhưng không đồng nhất */}
+        <div>
+          <h4 className="text-2xl font-bold text-black mb-4">c. Mối Quan Hệ Thống Nhất Nhưng Không Đồng Nhất Giữa Bản Chất và Hiện Tượng</h4>
+          
+          <div className="space-y-4 text-black opacity-80">
             <p>
-              Bản chất ổn định, còn hiện tượng có thể thay đổi. Mặc dù hiện tượng thay đổi, nhưng bản chất vẫn không thay. Ví dụ: Nước có thể là lỏng, rắn (đá), hoặc khí (hơi nước) - hiện tượng khác nhau, nhưng bản chất (H₂O) vẫn như nhau.
+              <strong>Bản chất và hiện tượng thống nhất với nhau:</strong> Không có bản chất nào tồn tại mà không biểu hiện ra hiện tượng, và không có hiện tượng nào lại không phản ánh một bản chất nhất định.
             </p>
-          </div>
-
-          <div className="bg-blue-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">Sự lúa dối:</h4>
             <p>
-              Hiện tượng có thể lừa dối - nhìn vào hiện tượng không đúng là không thể suy ra bản chất chính xác. Cần phân tích, nghiên cứu sâu hơn.
+              <strong>Nhưng chúng không đồng nhất:</strong> Bản chất là cái bên trong, ổn định, còn hiện tượng là cái bên ngoài, biến đổi.
             </p>
+            <div className="bg-gray-50 p-4 rounded-lg mt-4">
+              <p className="font-semibold text-black mb-2">Ví dụ: Trong một lớp học</p>
+              <div className="space-y-2 text-sm">
+                <p>• Có sinh viên nói ít, ít phát biểu (hiện tượng).</p>
+                <p>• Nhưng bản chất có thể là tư duy sâu, học tập nghiêm túc, chỉ không thích thể hiện.</p>
+              </div>
+              <p className="mt-2 text-sm italic">
+                → Nếu chỉ đánh giá qua hiện tượng bề ngoài sẽ dễ hiểu sai bản chất.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Ví Dụ Thực Tế */}
+      {/* 3. Ý nghĩa phương pháp luận */}
       <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ví Dụ Thực Tế</h3>
+        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> 3. Ý Nghĩa Phương Pháp Luận</h3>
         
-        <div className="space-y-6">
+        <div className="space-y-6 text-black opacity-80">
           <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 1: Cuốn Sách</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Hiện tượng (có thể nhìn thấy):</strong> Bìa sách dày 300 trang, màu xanh, có hình ảnh minh họa, nặng 500g</p>
-              <p className="mt-2">→ <strong>Bản chất (cần phân tích):</strong> Là công cụ để truyền tải tri thức, ý tưởng</p>
-              <p className="mt-2 italic text-sm">Bạn có thể thấy bìa, nhưng chỉ khi đọc mới hiểu bản chất của nó</p>
-            </div>
+            <p className="mb-3">
+              Do bản chất quyết định hiện tượng, nên trong nhận thức và hoạt động thực tiễn, con người không được dừng lại ở hiện tượng bề ngoài, mà phải đi sâu tìm hiểu bản chất của sự vật, hiện tượng.
+            </p>
           </div>
 
           <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 2: Con Vàng Và Con Bạc</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Hiện tượng (có thể nhìn thấy):</strong> Con vàng trông sang trọng, con bạc trông bình thường</p>
-              <p className="mt-2">→ <strong>Bản chất (cần suy đoán):</strong> Cả hai đều là kim loại quý, đều có giá trị cao</p>
-              <p className="mt-2">Hiện tượng lừa dối người không biết: Không phải cái "đẹp" ngoài mắt là có giá trị cao</p>
-            </div>
+            <p className="mb-3">
+              Vì hiện tượng phong phú, đa dạng và có thể che giấu bản chất, nên muốn nhận thức đúng bản chất cần xem xét nhiều hiện tượng, trong những điều kiện, hoàn cảnh khác nhau, tránh suy luận chủ quan, phiến diện.
+            </p>
           </div>
 
           <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 3: Nước</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Hiện tượng (có thể nhìn thấy):</strong></p>
-              <p className="ml-4">- Nước lỏng trong suốt, không màu, lạnh</p>
-              <p className="ml-4">- Đá - rắn, trắng, cứng</p>
-              <p className="ml-4">- Hơi nước - vô hình, nóng</p>
-              <p className="mt-2">→ <strong>Bản chất (không đổi):</strong> H₂O - ba trạng thái khác nhau nhưng cùng một bản chất</p>
-            </div>
+            <p className="mb-3">
+              Trong hoạt động thực tiễn, cần:
+            </p>
+            <ul className="ml-4 space-y-2">
+              <li>• Tôn trọng bản chất khách quan của sự vật,</li>
+              <li>• Tác động vào bản chất, không chỉ thay đổi hình thức hay biểu hiện bề ngoài.</li>
+            </ul>
           </div>
 
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 4: Con Người</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Hiện tượng (có thể nhìn thấy):</strong> Người lớp thượng thường mặc đẹp, sống trong nhà sang trọng, nói chuyện lịch sự</p>
-              <p className="mt-2">→ <strong>Bản chất (cần suy đoán):</strong> Nhưng bản chất là một con người giống như bất cứ ai khác - có lý trí, cần ăn uống, sợ chết</p>
-              <p className="mt-2">Hiện tượng ngoài có thể khác nhau, nhưng bản chất của con người vẫn như nhau</p>
-            </div>
-          </div>
-
-          <div className="border-l-4 border-yellow-400 pl-6" style={{ borderLeftColor: '#C19A6B' }}>
-            <h4 className="font-bold text-black mb-2">Ví Dụ 5: Bệnh Tật</h4>
-            <div className="text-black opacity-80">
-              <p><strong>Hiện tượng (có thể nhìn thấy):</strong> Sốt cao, ho, khó thở</p>
-              <p className="mt-2">→ <strong>Bản chất (cần chẩn đoán):</strong> Bệnh viêm phổi, nhiễm virus, dị ứng, hay bệnh gì khác?</p>
-              <p className="mt-2">Cần chẩn đoán đúng bản chất của bệnh mới có thể chữa trị đúng cách</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Khó Khăn Trong Nhận Thức */}
-      <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><AlertTriangle size={32} /> Khó Khăn Trong Nhận Thức Bản Chất</h3>
-        
-        <div className="space-y-4 text-black opacity-80">
-          <div className="bg-orange-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">1. Bản chất không dễ thấy</h4>
-            <p>
-              Bản chất ẩn giấu bên trong, không hiển thị trực tiếp. Bạn chỉ có thể suy đoán từ những hiện tượng. Ví dụ: Không thể thấy trực tiếp "sự suy nhược" của bệnh nhân, chỉ có thể thấy dấu hiệu.
+          <div className="bg-gray-50 p-4 rounded-lg">
+            <p className="font-semibold text-black mb-2">Ví dụ: Muốn nâng cao chất lượng học tập của sinh viên:</p>
+            <ul className="ml-4 space-y-2 text-sm">
+              <li>• Không chỉ chú trọng hiện tượng như điểm số hay tỷ lệ lên lớp,</li>
+              <li>• Mà cần tác động vào bản chất như: phương pháp giảng dạy, ý thức tự học, môi trường học tập.</li>
+            </ul>
+            <p className="mt-2 text-sm italic">
+              → Chỉ khi thay đổi đúng bản chất thì hiện tượng tích cực mới xuất hiện bền vững.
             </p>
           </div>
-
-          <div className="bg-orange-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">2. Hiện tượng có thể lừa dối</h4>
-            <p>
-              Những gì ta nhìn thấy có thể không phản ánh chính xác bản chất. Ví dụ: Một người nhìn vào vẻ bề ngoài thân thiện nhưng bản chất là người xấu, hoặc ngược lại.
-            </p>
-          </div>
-
-          <div className="bg-orange-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">3. Cần nhiều hiện tượng để hiểu bản chất</h4>
-            <p>
-              Một hiện tượng duy nhất có thể có nhiều nguyên nhân. Cần nhìn thấy nhiều hiện tượng, từ nhiều góc độ khác nhau mới có thể suy ra bản chất chính xác.
-            </p>
-          </div>
-
-          <div className="bg-orange-50 p-4 rounded">
-            <h4 className="font-bold text-black mb-2">4. Bản chất thường phức tạp</h4>
-            <p>
-              Bản chất của sự vật không đơn giản, mà là sự kết hợp phức tạp của nhiều yếu tố. Ví dụ: Bản chất của hạnh phúc không chỉ là tiền bạc hay tình yêu.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Ứng Dụng */}
-      <section className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><Star size={32} /> Ứng Dụng Thực Tế</h3>
-        
-        <div className="space-y-4 text-black opacity-80">
-          <div>
-            <h4 className="font-bold text-black mb-2">1. Trong Y Học</h4>
-            <p>
-              Bác sĩ không chỉ nhìn vào các triệu chứng (hiện tượng) mà phải chẩn đoán bệnh (bản chất). Cách chữa trị sẽ khác nhau tùy vào bản chất của bệnh, không phải dựa vào hiện tượng.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">2. Trong Pháp Luật</h4>
-            <p>
-              Thẩm phán không chỉ nhìn vào những lời khai (hiện tượng) mà phải xác định sự thật (bản chất). Bộ luật yêu cầu tìm ra chân tướng của vụ việc.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">3. Trong Kinh Doanh</h4>
-            <p>
-              Nhà quản lý không chỉ nhìn vào doanh số (hiện tượng) mà phải xác định nguyên nhân thực sự (bản chất). Tăng doanh số một lần có thể do may mắn, nhưng bản chất là sản phẩm tốt hay dịch vụ tốt.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">4. Trong Khoa Học</h4>
-            <p>
-              Nhà khoa học tìm kiếm các định luật (bản chất) từ những thí nghiệm (hiện tượng). Sự tiến bộ khoa học là quá trình khám phá bản chất của các hiện tượng tự nhiên.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-black mb-2">5. Trong Giáo Dục Cá Nhân</h4>
-            <p>
-              Hiểu bản chất của sự vật giúp ta hành động đúng đắn hơn. Không bị lừa dối bởi hiện tượng bề ngoài mà nhìn sâu vào bản chất.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Lỗi Thường Gặp */}
-      <section className="bg-red-50 p-8 rounded-lg shadow-lg mb-8">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><AlertTriangle size={32} /> Những Lỗi Thường Gặp</h3>
-        
-        <div className="space-y-4 text-black opacity-80">
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Nhầm lẫn hiện tượng với bản chất:</strong> Tưởng rằng nhìn thấy hiện tượng là đã hiểu bản chất. Thực tế cần phân tích, nghiên cứu sâu.
-            </div>
-          </div>
-
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Cho rằng bản chất không thay đổi tuyệt đối:</strong> Bản chất tương đối ổn định nhưng không hoàn toàn cố định. Nó có thể thay đổi qua thời gian dài.
-            </div>
-          </div>
-
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Coi nhẹ vai trò của hiện tượng:</strong> "Hiện tượng chỉ là bề mặt không quan trọng" → Nhưng hiện tượng là cách duy nhất để tiếp cận bản chất.
-            </div>
-          </div>
-
-          <div className="flex gap-4">
-            <XCircle size={24} className="text-red-600 flex-shrink-0 mt-1" />
-            <div>
-              <strong className="text-black">Bị lừa dối bởi hiện tượng:</strong> "Ai nhìn cao sang là người tốt" → Nhưng hiện tượng bề ngoài không phản ánh bản chất thực sự.
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Tóm tắt */}
-      <section className="bg-blue-50 p-8 rounded-lg shadow-lg">
-        <h3 className="text-3xl font-bold text-black mb-6 flex items-center gap-2"><ListChecks size={32} /> Tóm Tắt</h3>
-        
-        <div className="space-y-3 text-black opacity-80">
-          <p>✓ <strong>Bản chất</strong> = Những đặc tính cơ bản, sâu xa, xác định danh tính sự vật</p>
-          <p>✓ <strong>Hiện tượng</strong> = Những biểu hiện bên ngoài, có thể được nhận thức qua giác quan</p>
-          <p>✓ Bản chất biểu hiện qua hiện tượng, nhưng hiện tượng có thể lừa dối</p>
-          <p>✓ Bản chất ổn định, hiện tượng có thể thay đổi</p>
-          <p>✓ Hiểu rõ cặp phạm trù này giúp chúng ta <strong>vượt ra ngoài bề mặt để tìm hiểu sự thật</strong></p>
-          <p>✓ Cần thực hành nhìn sâu, phân tích, không bị lừa dối bởi hiện tượng</p>
         </div>
       </section>
     </div>
