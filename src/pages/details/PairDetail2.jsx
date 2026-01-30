@@ -36,7 +36,11 @@ export default function PairDetail2() {
               Nguyên nhân là phạm trù chỉ sự tương tác lẫn nhau giữa các yếu tố trong một sự vật, hiện tượng hoặc giữa các sự vật, hiện tượng với nhau gây ra những biến đổi nhất định.
             </p>
           </div>
-
+ <div className="bg-gray-50 p-4 rounded-lg mt-4">
+            <p className="text-black opacity-80 mb-3">
+              <strong>Ví dụ:</strong> Không phải dòng điện là nguyên nhân làm bóng đèn phát sáng, mà chính là tương táccủa dòng điện với dây tóc bóng đèn mới thực sự là nguyên nhan làm cho bóng đèn phát sáng.
+            </p>
+          </div>
           <div className="border-l-4 border-black pl-6">
             <h4 className="text-xl font-bold text-black mb-2">Kết Quả</h4>
             <p className="text-black opacity-80">
@@ -46,7 +50,7 @@ export default function PairDetail2() {
 
           <div className="bg-gray-50 p-4 rounded-lg mt-4">
             <p className="text-black opacity-80 mb-3">
-              <strong>Ví dụ:</strong> Sinh viên học tập chăm chỉ thì đạt điểm cao. Học tập chăm chỉ là một hiện tượng, bên trong nó tồn tại những yếu tố như: động cơ, thái độ học tập, môi trường học tập,... những yếu tố này tác động lẫn nhau, chính sự tương tác đó tạo ra kết quả là sinh viên đạt điểm cao.
+              <strong>Ví dụ:</strong> Do sự tương tác giữa dòng điện và dây tóc bóng đèn (nguyên nhân), nên bóng đèn phát sáng (kết quả).
             </p>
           </div>
 
@@ -56,7 +60,11 @@ export default function PairDetail2() {
               Là sự kiện xảy ra ngay trước kết quả nhưng nó không phải là nguyên nhân gốc rễ, mang tính ngẫu nhiên, có thể dùng nguyên cớ để che đậy nguyên nhân.
             </p>
           </div>
-
+<div className="bg-gray-50 p-4 rounded-lg mt-4">
+            <p className="text-black opacity-80 mb-3">
+              <strong>Ví dụ:</strong> Việc con người bật công tắc là nguyên cớ trực tiếp làm cho hiện tượng xảy ra, nhưng bản chất khiến bóng đèn phát sáng vẫn là sự tương tác giữa dòng điện và dây tóc bóng đèn.
+            </p>
+          </div>
           <div className="border-l-4 border-black pl-6">
             <h4 className="text-xl font-bold text-black mb-2">Điều Kiện</h4>
             <p className="text-black opacity-80">
@@ -64,6 +72,11 @@ export default function PairDetail2() {
             </p>
           </div>
         </div>
+        <div className="bg-gray-50 p-4 rounded-lg mt-4">
+            <p className="text-black opacity-80 mb-3">
+              <strong>Ví dụ:</strong> Nguồn điện ổn định, bóng đèn còn tốt và hệ thống dây dẫn không bị hỏng là những điều kiện để sự tương tác giữa dòng điện và dây tóc diễn ra, từ đó tạo ra kết quả là bóng đèn phát sáng.
+            </p>
+          </div>
       </section>
 
       {/* 2. Mối quan hệ giữa nguyên nhân và kết quả */}
