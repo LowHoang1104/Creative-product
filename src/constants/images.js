@@ -6,7 +6,7 @@ export const contentImages = {
     'https://static.tramdoc.vn/image/img.news/0/0/0/12465.jpg?v=1&w=600&h=400&nocache=1'
   ],
 
-  cardPairs: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80&fit=crop',
+  cardPairs: 'assets/banhrang.jpg',
   cardGame: 'assets/Game.jpg',
 
   // ----- About -----
@@ -20,20 +20,20 @@ export const contentImages = {
   pairsBanner: 'https://images.unsplash.com/photo-1557683316-973673baf926?w=800&q=80&fit=crop',
 
   // ----- PairDetail 1: Cái chung - Cái riêng -----
-  pair1: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80&fit=crop',
+  pair1: 'assets/caichungcairieng.jpg',
 
   // ----- PairDetail 2: Nguyên nhân - Kết quả -----
-  pair2: 'https://images.unsplash.com/photo-1557234195-bd9f290f0e4d?w=600&q=80&fit=crop',
+  pair2: 'assets/nguyennhanhketqua.jpg',
 
   // ----- PairDetail 3: Tất nhiên - Ngẫu nhiên -----
   pair3: 'https://images.unsplash.com/photo-1679560511493-0911a131a070?w=600&q=80&fit=crop',
 
   // ----- PairDetail 4: Nội dung - Hình thức -----
-  pair4: 'https://images.unsplash.com/photo-1557683314-5e3a2d6329f9?w=600&q=80&fit=crop',
+  pair4: 'assets/noidunghinhthuc.jpg',
 
   // ----- PairDetail 5: Bản chất - Hiện tượng -----
-  pair5: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80&fit=crop',
+  pair5: 'assets/banchathientuong.jpg',
 
   // ----- PairDetail 6: Khả năng - Hiện thực -----
-  pair6: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=600&q=80&fit=crop',
+  pair6: 'assets/khananghienthuc.jpg',
 }
