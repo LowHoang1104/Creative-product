@@ -27,10 +27,6 @@ export default function Game() {
             <span><strong>Công nghệ:</strong> Sử dụng AI để sinh dữ liệu mới mỗi lần và giải thích chi tiết.</span>
           </p>
         </div>
-
-        <div className="bg-yellow-50 p-4 rounded flex gap-3 items-start" style={{ backgroundColor: '#C19A6B' }}>
-          <AlertCircle size={20} className="flex-shrink-0 mt-0.5" />
-        </div>
       </div>
 
       <CaseBasedQuiz />

@@ -98,10 +98,7 @@ export default function CaseBasedQuiz() {
       {/* Thông tin tiến độ */}
       <div className="mb-8 flex justify-between items-center">
         <div className="text-black font-semibold">
-          Câu hỏi: <span style={{ color: '#C19A6B' }}>{totalQuestions}</span>
-        </div>
-        <div className="text-black font-semibold">
-          Điểm: <span style={{ color: '#C19A6B' }}>{score}/{totalQuestions}</span>
+          Câu hỏi: <span style={{ color: 'red' }}>{totalQuestions}</span>
         </div>
       </div>
 
