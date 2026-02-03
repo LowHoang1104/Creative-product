@@ -14,7 +14,7 @@ export const contentImages = {
   aboutLight: 'https://images.unsplash.com/photo-1470252649378-9c29749c3f8e?w=500&q=80&fit=crop',
 
   // ----- Game -----
-  gameHeader: 'https://images.unsplash.com/photo-1503676260248-fc65751ee4fe?w=800&q=80&fit=crop',
+  gameHeader: 'assets/Game1.jpg',
 
   // ----- CategoryPairs -----
   pairsBanner: 'https://images.unsplash.com/photo-1557683316-973673baf926?w=800&q=80&fit=crop',

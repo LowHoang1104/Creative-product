@@ -21,9 +21,7 @@ export default function About() {
       </div>
 
       <div className="bg-white p-8 rounded-lg shadow-lg mb-8">
-        <div className="rounded-xl overflow-hidden mb-6">
-          <img src={contentImages.aboutLight} alt="Ánh sáng và nhận thức" className="w-full h-48 object-cover img-warm" />
-        </div>
+
         <h3 className="text-2xl font-bold text-black mb-4">Vai Trò của Cặp Phạm Trù</h3>
         
         <div className="space-y-6">

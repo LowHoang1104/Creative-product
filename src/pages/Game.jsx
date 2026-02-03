@@ -24,15 +24,12 @@ export default function Game() {
           </p>
           <p className="flex gap-3 items-start">
             <Gamepad2 size={20} className="flex-shrink-0 mt-1" />
-            <span><strong>Công nghệ:</strong> Sử dụng Groq API để sinh dữ liệu mới mỗi lần, tránh lặp lại và giải thích chi tiết.</span>
+            <span><strong>Công nghệ:</strong> Sử dụng AI để sinh dữ liệu mới mỗi lần và giải thích chi tiết.</span>
           </p>
         </div>
 
         <div className="bg-yellow-50 p-4 rounded flex gap-3 items-start" style={{ backgroundColor: '#C19A6B' }}>
           <AlertCircle size={20} className="flex-shrink-0 mt-0.5" />
-          <p className="text-black text-sm">
-            Lưu ý: Bạn cần Groq API Key (miễn phí) để chơi game này. Sẽ được nhắc nhập khi bạn bắt đầu.
-          </p>
         </div>
       </div>
 
