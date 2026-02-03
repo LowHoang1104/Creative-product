@@ -17,7 +17,7 @@ export default function Home({ onNavigate }) {
           Khám Phá Cặp Phạm Trù Triết Học
         </h2>
         <p className="text-xl text-black mb-8 opacity-80">
-          Nắm vững những khái niệm cơ bản của triết học dianmat qua các cặp phạm trù đối lập
+          Nắm vững những khái niệm cơ bản của triết học qua các cặp phạm trù đối lập
         </p>
       </section>
 
